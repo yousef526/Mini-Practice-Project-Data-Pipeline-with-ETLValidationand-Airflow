@@ -1,0 +1,300 @@
+[2025-05-07T19:20:20.491+0000] {processor.py:161} INFO - Started process (PID=35) to work on /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar
+[2025-05-07T19:20:20.494+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar for tasks to queue
+[2025-05-07T19:20:20.497+0000] {logging_mixin.py:188} INFO - [2025-05-07T19:20:20.497+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar
+[2025-05-07T19:20:20.518+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar
+[2025-05-07T19:20:20.534+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar took 0.048 seconds
+[2025-05-07T19:20:50.953+0000] {processor.py:161} INFO - Started process (PID=43) to work on /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar
+[2025-05-07T19:20:50.954+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar for tasks to queue
+[2025-05-07T19:20:50.956+0000] {logging_mixin.py:188} INFO - [2025-05-07T19:20:50.955+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar
+[2025-05-07T19:20:50.972+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar
+[2025-05-07T19:20:50.983+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar took 0.033 seconds
+[2025-05-07T19:21:21.387+0000] {processor.py:161} INFO - Started process (PID=51) to work on /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar
+[2025-05-07T19:21:21.388+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar for tasks to queue
+[2025-05-07T19:21:21.390+0000] {logging_mixin.py:188} INFO - [2025-05-07T19:21:21.389+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar
+[2025-05-07T19:21:21.405+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar
+[2025-05-07T19:21:21.416+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar took 0.034 seconds
+[2025-05-07T19:21:51.826+0000] {processor.py:161} INFO - Started process (PID=59) to work on /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar
+[2025-05-07T19:21:51.827+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar for tasks to queue
+[2025-05-07T19:21:51.829+0000] {logging_mixin.py:188} INFO - [2025-05-07T19:21:51.828+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar
+[2025-05-07T19:21:51.845+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar
+[2025-05-07T19:21:51.856+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar took 0.032 seconds
+[2025-05-07T19:22:22.261+0000] {processor.py:161} INFO - Started process (PID=67) to work on /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar
+[2025-05-07T19:22:22.261+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar for tasks to queue
+[2025-05-07T19:22:22.263+0000] {logging_mixin.py:188} INFO - [2025-05-07T19:22:22.263+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar
+[2025-05-07T19:22:22.279+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar
+[2025-05-07T19:22:22.289+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar took 0.032 seconds
+[2025-05-07T19:22:52.679+0000] {processor.py:161} INFO - Started process (PID=75) to work on /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar
+[2025-05-07T19:22:52.680+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar for tasks to queue
+[2025-05-07T19:22:52.681+0000] {logging_mixin.py:188} INFO - [2025-05-07T19:22:52.681+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar
+[2025-05-07T19:22:52.695+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar
+[2025-05-07T19:22:52.707+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar took 0.031 seconds
+[2025-05-07T19:23:23.092+0000] {processor.py:161} INFO - Started process (PID=83) to work on /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar
+[2025-05-07T19:23:23.093+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar for tasks to queue
+[2025-05-07T19:23:23.094+0000] {logging_mixin.py:188} INFO - [2025-05-07T19:23:23.094+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar
+[2025-05-07T19:23:23.108+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar
+[2025-05-07T19:23:23.119+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar took 0.030 seconds
+[2025-05-07T19:23:53.474+0000] {processor.py:161} INFO - Started process (PID=91) to work on /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar
+[2025-05-07T19:23:53.475+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar for tasks to queue
+[2025-05-07T19:23:53.477+0000] {logging_mixin.py:188} INFO - [2025-05-07T19:23:53.477+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar
+[2025-05-07T19:23:53.491+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar
+[2025-05-07T19:23:53.502+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar took 0.030 seconds
+[2025-05-07T19:24:23.868+0000] {processor.py:161} INFO - Started process (PID=99) to work on /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar
+[2025-05-07T19:24:23.868+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar for tasks to queue
+[2025-05-07T19:24:23.870+0000] {logging_mixin.py:188} INFO - [2025-05-07T19:24:23.870+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar
+[2025-05-07T19:24:23.885+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar
+[2025-05-07T19:24:23.896+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar took 0.032 seconds
+[2025-05-07T19:24:54.290+0000] {processor.py:161} INFO - Started process (PID=107) to work on /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar
+[2025-05-07T19:24:54.291+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar for tasks to queue
+[2025-05-07T19:24:54.293+0000] {logging_mixin.py:188} INFO - [2025-05-07T19:24:54.292+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar
+[2025-05-07T19:24:54.307+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar
+[2025-05-07T19:24:54.319+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar took 0.032 seconds
+[2025-05-07T19:25:25.288+0000] {processor.py:161} INFO - Started process (PID=116) to work on /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar
+[2025-05-07T19:25:25.289+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar for tasks to queue
+[2025-05-07T19:25:25.290+0000] {logging_mixin.py:188} INFO - [2025-05-07T19:25:25.290+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar
+[2025-05-07T19:25:25.304+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar
+[2025-05-07T19:25:25.314+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar took 0.029 seconds
+[2025-05-07T19:25:55.687+0000] {processor.py:161} INFO - Started process (PID=124) to work on /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar
+[2025-05-07T19:25:55.688+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar for tasks to queue
+[2025-05-07T19:25:55.689+0000] {logging_mixin.py:188} INFO - [2025-05-07T19:25:55.689+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar
+[2025-05-07T19:25:55.703+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar
+[2025-05-07T19:25:55.714+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar took 0.030 seconds
+[2025-05-07T19:26:26.076+0000] {processor.py:161} INFO - Started process (PID=132) to work on /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar
+[2025-05-07T19:26:26.077+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar for tasks to queue
+[2025-05-07T19:26:26.078+0000] {logging_mixin.py:188} INFO - [2025-05-07T19:26:26.078+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar
+[2025-05-07T19:26:26.092+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar
+[2025-05-07T19:26:26.103+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar took 0.030 seconds
+[2025-05-07T19:26:56.488+0000] {processor.py:161} INFO - Started process (PID=140) to work on /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar
+[2025-05-07T19:26:56.489+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar for tasks to queue
+[2025-05-07T19:26:56.490+0000] {logging_mixin.py:188} INFO - [2025-05-07T19:26:56.490+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar
+[2025-05-07T19:26:56.505+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar
+[2025-05-07T19:26:56.516+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar took 0.031 seconds
+[2025-05-07T19:27:26.892+0000] {processor.py:161} INFO - Started process (PID=148) to work on /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar
+[2025-05-07T19:27:26.893+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar for tasks to queue
+[2025-05-07T19:27:26.895+0000] {logging_mixin.py:188} INFO - [2025-05-07T19:27:26.895+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar
+[2025-05-07T19:27:26.909+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar
+[2025-05-07T19:27:26.921+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar took 0.033 seconds
+[2025-05-07T19:27:57.305+0000] {processor.py:161} INFO - Started process (PID=156) to work on /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar
+[2025-05-07T19:27:57.306+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar for tasks to queue
+[2025-05-07T19:27:57.308+0000] {logging_mixin.py:188} INFO - [2025-05-07T19:27:57.308+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar
+[2025-05-07T19:27:57.322+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar
+[2025-05-07T19:27:57.332+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar took 0.030 seconds
+[2025-05-07T19:28:27.718+0000] {processor.py:161} INFO - Started process (PID=164) to work on /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar
+[2025-05-07T19:28:27.718+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar for tasks to queue
+[2025-05-07T19:28:27.720+0000] {logging_mixin.py:188} INFO - [2025-05-07T19:28:27.720+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar
+[2025-05-07T19:28:27.734+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar
+[2025-05-07T19:28:27.745+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar took 0.030 seconds
+[2025-05-07T19:28:58.128+0000] {processor.py:161} INFO - Started process (PID=172) to work on /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar
+[2025-05-07T19:28:58.128+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar for tasks to queue
+[2025-05-07T19:28:58.130+0000] {logging_mixin.py:188} INFO - [2025-05-07T19:28:58.130+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar
+[2025-05-07T19:28:58.144+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar
+[2025-05-07T19:28:58.155+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar took 0.031 seconds
+[2025-05-07T19:29:28.536+0000] {processor.py:161} INFO - Started process (PID=180) to work on /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar
+[2025-05-07T19:29:28.536+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar for tasks to queue
+[2025-05-07T19:29:28.538+0000] {logging_mixin.py:188} INFO - [2025-05-07T19:29:28.538+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar
+[2025-05-07T19:29:28.552+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar
+[2025-05-07T19:29:28.563+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar took 0.031 seconds
+[2025-05-07T19:29:58.939+0000] {processor.py:161} INFO - Started process (PID=188) to work on /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar
+[2025-05-07T19:29:58.940+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar for tasks to queue
+[2025-05-07T19:29:58.942+0000] {logging_mixin.py:188} INFO - [2025-05-07T19:29:58.941+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar
+[2025-05-07T19:29:58.956+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar
+[2025-05-07T19:29:58.966+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar took 0.030 seconds
+[2025-05-07T19:30:29.878+0000] {processor.py:161} INFO - Started process (PID=196) to work on /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar
+[2025-05-07T19:30:29.879+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar for tasks to queue
+[2025-05-07T19:30:29.880+0000] {logging_mixin.py:188} INFO - [2025-05-07T19:30:29.880+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar
+[2025-05-07T19:30:29.894+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar
+[2025-05-07T19:30:29.906+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar took 0.031 seconds
+[2025-05-07T19:31:00.268+0000] {processor.py:161} INFO - Started process (PID=204) to work on /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar
+[2025-05-07T19:31:00.269+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar for tasks to queue
+[2025-05-07T19:31:00.271+0000] {logging_mixin.py:188} INFO - [2025-05-07T19:31:00.270+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar
+[2025-05-07T19:31:00.285+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar
+[2025-05-07T19:31:00.296+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar took 0.030 seconds
+[2025-05-07T19:31:30.668+0000] {processor.py:161} INFO - Started process (PID=212) to work on /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar
+[2025-05-07T19:31:30.669+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar for tasks to queue
+[2025-05-07T19:31:30.670+0000] {logging_mixin.py:188} INFO - [2025-05-07T19:31:30.670+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar
+[2025-05-07T19:31:30.686+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar
+[2025-05-07T19:31:30.696+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar took 0.031 seconds
+[2025-05-07T19:32:01.113+0000] {processor.py:161} INFO - Started process (PID=220) to work on /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar
+[2025-05-07T19:32:01.114+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar for tasks to queue
+[2025-05-07T19:32:01.116+0000] {logging_mixin.py:188} INFO - [2025-05-07T19:32:01.115+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar
+[2025-05-07T19:32:01.132+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar
+[2025-05-07T19:32:01.145+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar took 0.034 seconds
+[2025-05-07T19:32:31.583+0000] {processor.py:161} INFO - Started process (PID=228) to work on /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar
+[2025-05-07T19:32:31.584+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar for tasks to queue
+[2025-05-07T19:32:31.586+0000] {logging_mixin.py:188} INFO - [2025-05-07T19:32:31.586+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar
+[2025-05-07T19:32:31.603+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar
+[2025-05-07T19:32:31.615+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar took 0.035 seconds
+[2025-05-07T19:33:02.045+0000] {processor.py:161} INFO - Started process (PID=242) to work on /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar
+[2025-05-07T19:33:02.046+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar for tasks to queue
+[2025-05-07T19:33:02.048+0000] {logging_mixin.py:188} INFO - [2025-05-07T19:33:02.048+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar
+[2025-05-07T19:33:02.064+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar
+[2025-05-07T19:33:02.078+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar took 0.036 seconds
+[2025-05-07T19:33:32.473+0000] {processor.py:161} INFO - Started process (PID=250) to work on /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar
+[2025-05-07T19:33:32.473+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar for tasks to queue
+[2025-05-07T19:33:32.475+0000] {logging_mixin.py:188} INFO - [2025-05-07T19:33:32.475+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar
+[2025-05-07T19:33:32.492+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar
+[2025-05-07T19:33:32.503+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar took 0.033 seconds
+[2025-05-07T19:34:02.924+0000] {processor.py:161} INFO - Started process (PID=258) to work on /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar
+[2025-05-07T19:34:02.925+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar for tasks to queue
+[2025-05-07T19:34:02.926+0000] {logging_mixin.py:188} INFO - [2025-05-07T19:34:02.926+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar
+[2025-05-07T19:34:02.944+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar
+[2025-05-07T19:34:02.956+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar took 0.035 seconds
+[2025-05-07T19:34:33.374+0000] {processor.py:161} INFO - Started process (PID=266) to work on /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar
+[2025-05-07T19:34:33.375+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar for tasks to queue
+[2025-05-07T19:34:33.377+0000] {logging_mixin.py:188} INFO - [2025-05-07T19:34:33.377+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar
+[2025-05-07T19:34:33.393+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar
+[2025-05-07T19:34:33.403+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar took 0.032 seconds
+[2025-05-07T19:35:03.774+0000] {processor.py:161} INFO - Started process (PID=274) to work on /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar
+[2025-05-07T19:35:03.775+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar for tasks to queue
+[2025-05-07T19:35:03.776+0000] {logging_mixin.py:188} INFO - [2025-05-07T19:35:03.776+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar
+[2025-05-07T19:35:03.792+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar
+[2025-05-07T19:35:03.803+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar took 0.032 seconds
+[2025-05-07T19:35:34.836+0000] {processor.py:161} INFO - Started process (PID=282) to work on /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar
+[2025-05-07T19:35:34.836+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar for tasks to queue
+[2025-05-07T19:35:34.838+0000] {logging_mixin.py:188} INFO - [2025-05-07T19:35:34.838+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar
+[2025-05-07T19:35:34.854+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar
+[2025-05-07T19:35:34.864+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar took 0.032 seconds
+[2025-05-07T19:36:05.263+0000] {processor.py:161} INFO - Started process (PID=290) to work on /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar
+[2025-05-07T19:36:05.263+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar for tasks to queue
+[2025-05-07T19:36:05.265+0000] {logging_mixin.py:188} INFO - [2025-05-07T19:36:05.265+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar
+[2025-05-07T19:36:05.280+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar
+[2025-05-07T19:36:05.291+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar took 0.031 seconds
+[2025-05-07T19:36:35.685+0000] {processor.py:161} INFO - Started process (PID=298) to work on /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar
+[2025-05-07T19:36:35.686+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar for tasks to queue
+[2025-05-07T19:36:35.687+0000] {logging_mixin.py:188} INFO - [2025-05-07T19:36:35.687+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar
+[2025-05-07T19:36:35.704+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar
+[2025-05-07T19:36:35.715+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar took 0.032 seconds
+[2025-05-07T19:37:06.148+0000] {processor.py:161} INFO - Started process (PID=306) to work on /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar
+[2025-05-07T19:37:06.149+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar for tasks to queue
+[2025-05-07T19:37:06.151+0000] {logging_mixin.py:188} INFO - [2025-05-07T19:37:06.150+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar
+[2025-05-07T19:37:06.167+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar
+[2025-05-07T19:37:06.179+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar took 0.034 seconds
+[2025-05-07T19:37:36.618+0000] {processor.py:161} INFO - Started process (PID=315) to work on /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar
+[2025-05-07T19:37:36.618+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar for tasks to queue
+[2025-05-07T19:37:36.620+0000] {logging_mixin.py:188} INFO - [2025-05-07T19:37:36.620+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar
+[2025-05-07T19:37:36.636+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar
+[2025-05-07T19:37:36.646+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar took 0.032 seconds
+[2025-05-07T19:38:07.073+0000] {processor.py:161} INFO - Started process (PID=323) to work on /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar
+[2025-05-07T19:38:07.073+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar for tasks to queue
+[2025-05-07T19:38:07.075+0000] {logging_mixin.py:188} INFO - [2025-05-07T19:38:07.075+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar
+[2025-05-07T19:38:07.091+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar
+[2025-05-07T19:38:07.102+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar took 0.033 seconds
+[2025-05-07T19:38:37.484+0000] {processor.py:161} INFO - Started process (PID=331) to work on /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar
+[2025-05-07T19:38:37.484+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar for tasks to queue
+[2025-05-07T19:38:37.486+0000] {logging_mixin.py:188} INFO - [2025-05-07T19:38:37.486+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar
+[2025-05-07T19:38:37.501+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar
+[2025-05-07T19:38:37.512+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar took 0.031 seconds
+[2025-05-07T19:39:07.935+0000] {processor.py:161} INFO - Started process (PID=339) to work on /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar
+[2025-05-07T19:39:07.936+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar for tasks to queue
+[2025-05-07T19:39:07.938+0000] {logging_mixin.py:188} INFO - [2025-05-07T19:39:07.938+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar
+[2025-05-07T19:39:07.954+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar
+[2025-05-07T19:39:07.965+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar took 0.033 seconds
+[2025-05-07T19:39:38.354+0000] {processor.py:161} INFO - Started process (PID=347) to work on /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar
+[2025-05-07T19:39:38.355+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar for tasks to queue
+[2025-05-07T19:39:38.356+0000] {logging_mixin.py:188} INFO - [2025-05-07T19:39:38.356+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar
+[2025-05-07T19:39:38.374+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar
+[2025-05-07T19:39:38.385+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar took 0.035 seconds
+[2025-05-07T19:40:08.804+0000] {processor.py:161} INFO - Started process (PID=355) to work on /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar
+[2025-05-07T19:40:08.805+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar for tasks to queue
+[2025-05-07T19:40:08.807+0000] {logging_mixin.py:188} INFO - [2025-05-07T19:40:08.807+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar
+[2025-05-07T19:40:08.823+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar
+[2025-05-07T19:40:08.835+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar took 0.034 seconds
+[2025-05-07T19:40:39.087+0000] {processor.py:161} INFO - Started process (PID=526) to work on /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar
+[2025-05-07T19:40:39.088+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar for tasks to queue
+[2025-05-07T19:40:39.090+0000] {logging_mixin.py:188} INFO - [2025-05-07T19:40:39.089+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar
+[2025-05-07T19:40:39.106+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar
+[2025-05-07T19:40:39.118+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar took 0.034 seconds
+[2025-05-07T19:41:09.612+0000] {processor.py:161} INFO - Started process (PID=697) to work on /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar
+[2025-05-07T19:41:09.613+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar for tasks to queue
+[2025-05-07T19:41:09.616+0000] {logging_mixin.py:188} INFO - [2025-05-07T19:41:09.615+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar
+[2025-05-07T19:41:09.640+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar
+[2025-05-07T19:41:09.658+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar took 0.052 seconds
+[2025-05-07T19:41:40.050+0000] {processor.py:161} INFO - Started process (PID=868) to work on /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar
+[2025-05-07T19:41:40.051+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar for tasks to queue
+[2025-05-07T19:41:40.052+0000] {logging_mixin.py:188} INFO - [2025-05-07T19:41:40.052+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar
+[2025-05-07T19:41:40.069+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar
+[2025-05-07T19:41:40.079+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar took 0.032 seconds
+[2025-05-07T19:42:10.614+0000] {processor.py:161} INFO - Started process (PID=1038) to work on /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar
+[2025-05-07T19:42:10.615+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar for tasks to queue
+[2025-05-07T19:42:10.617+0000] {logging_mixin.py:188} INFO - [2025-05-07T19:42:10.617+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar
+[2025-05-07T19:42:10.635+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar
+[2025-05-07T19:42:10.647+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar took 0.036 seconds
+[2025-05-07T19:42:41.095+0000] {processor.py:161} INFO - Started process (PID=1098) to work on /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar
+[2025-05-07T19:42:41.095+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar for tasks to queue
+[2025-05-07T19:42:41.097+0000] {logging_mixin.py:188} INFO - [2025-05-07T19:42:41.097+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar
+[2025-05-07T19:42:41.113+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar
+[2025-05-07T19:42:41.124+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar took 0.032 seconds
+[2025-05-07T19:43:11.413+0000] {processor.py:161} INFO - Started process (PID=1380) to work on /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar
+[2025-05-07T19:43:11.414+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar for tasks to queue
+[2025-05-07T19:43:11.415+0000] {logging_mixin.py:188} INFO - [2025-05-07T19:43:11.415+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar
+[2025-05-07T19:43:11.431+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar
+[2025-05-07T19:43:11.442+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar took 0.032 seconds
+[2025-05-07T19:43:41.748+0000] {processor.py:161} INFO - Started process (PID=1551) to work on /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar
+[2025-05-07T19:43:41.749+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar for tasks to queue
+[2025-05-07T19:43:41.751+0000] {logging_mixin.py:188} INFO - [2025-05-07T19:43:41.751+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar
+[2025-05-07T19:43:41.767+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar
+[2025-05-07T19:43:41.778+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar took 0.032 seconds
+[2025-05-07T19:44:12.889+0000] {processor.py:161} INFO - Started process (PID=1721) to work on /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar
+[2025-05-07T19:44:12.890+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar for tasks to queue
+[2025-05-07T19:44:12.892+0000] {logging_mixin.py:188} INFO - [2025-05-07T19:44:12.891+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar
+[2025-05-07T19:44:12.907+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar
+[2025-05-07T19:44:12.917+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar took 0.032 seconds
+[2025-05-07T19:44:43.358+0000] {processor.py:161} INFO - Started process (PID=1891) to work on /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar
+[2025-05-07T19:44:43.360+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar for tasks to queue
+[2025-05-07T19:44:43.362+0000] {logging_mixin.py:188} INFO - [2025-05-07T19:44:43.361+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar
+[2025-05-07T19:44:43.377+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar
+[2025-05-07T19:44:43.387+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar took 0.032 seconds
+[2025-05-07T19:45:13.656+0000] {processor.py:161} INFO - Started process (PID=2062) to work on /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar
+[2025-05-07T19:45:13.657+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar for tasks to queue
+[2025-05-07T19:45:13.659+0000] {logging_mixin.py:188} INFO - [2025-05-07T19:45:13.658+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar
+[2025-05-07T19:45:13.675+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar
+[2025-05-07T19:45:13.687+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar took 0.034 seconds
+[2025-05-07T19:45:43.998+0000] {processor.py:161} INFO - Started process (PID=2231) to work on /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar
+[2025-05-07T19:45:43.999+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar for tasks to queue
+[2025-05-07T19:45:44.001+0000] {logging_mixin.py:188} INFO - [2025-05-07T19:45:44.000+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar
+[2025-05-07T19:45:44.017+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar
+[2025-05-07T19:45:44.030+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar took 0.035 seconds
+[2025-05-07T19:46:14.482+0000] {processor.py:161} INFO - Started process (PID=2291) to work on /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar
+[2025-05-07T19:46:14.483+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar for tasks to queue
+[2025-05-07T19:46:14.485+0000] {logging_mixin.py:188} INFO - [2025-05-07T19:46:14.484+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar
+[2025-05-07T19:46:14.501+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar
+[2025-05-07T19:46:14.512+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar took 0.034 seconds
+[2025-05-07T19:46:44.959+0000] {processor.py:161} INFO - Started process (PID=2410) to work on /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar
+[2025-05-07T19:46:44.960+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar for tasks to queue
+[2025-05-07T19:46:44.962+0000] {logging_mixin.py:188} INFO - [2025-05-07T19:46:44.962+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar
+[2025-05-07T19:46:44.978+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar
+[2025-05-07T19:46:44.988+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar took 0.032 seconds
+[2025-05-07T19:47:15.230+0000] {processor.py:161} INFO - Started process (PID=2580) to work on /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar
+[2025-05-07T19:47:15.231+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar for tasks to queue
+[2025-05-07T19:47:15.233+0000] {logging_mixin.py:188} INFO - [2025-05-07T19:47:15.232+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar
+[2025-05-07T19:47:15.248+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar
+[2025-05-07T19:47:15.260+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar took 0.034 seconds
+[2025-05-07T19:47:45.492+0000] {processor.py:161} INFO - Started process (PID=2752) to work on /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar
+[2025-05-07T19:47:45.493+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar for tasks to queue
+[2025-05-07T19:47:45.494+0000] {logging_mixin.py:188} INFO - [2025-05-07T19:47:45.494+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar
+[2025-05-07T19:47:45.510+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar
+[2025-05-07T19:47:45.521+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar took 0.033 seconds
+[2025-05-07T19:48:15.748+0000] {processor.py:161} INFO - Started process (PID=2923) to work on /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar
+[2025-05-07T19:48:15.749+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar for tasks to queue
+[2025-05-07T19:48:15.750+0000] {logging_mixin.py:188} INFO - [2025-05-07T19:48:15.750+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar
+[2025-05-07T19:48:15.767+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar
+[2025-05-07T19:48:15.779+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar took 0.034 seconds
+[2025-05-07T19:48:46.814+0000] {processor.py:161} INFO - Started process (PID=3092) to work on /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar
+[2025-05-07T19:48:46.815+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar for tasks to queue
+[2025-05-07T19:48:46.817+0000] {logging_mixin.py:188} INFO - [2025-05-07T19:48:46.817+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar
+[2025-05-07T19:48:46.833+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar
+[2025-05-07T19:48:46.844+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar took 0.033 seconds
+[2025-05-07T19:49:17.063+0000] {processor.py:161} INFO - Started process (PID=3262) to work on /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar
+[2025-05-07T19:49:17.064+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar for tasks to queue
+[2025-05-07T19:49:17.066+0000] {logging_mixin.py:188} INFO - [2025-05-07T19:49:17.065+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar
+[2025-05-07T19:49:17.081+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar
+[2025-05-07T19:49:17.093+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar took 0.033 seconds
+[2025-05-07T19:49:47.605+0000] {processor.py:161} INFO - Started process (PID=3432) to work on /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar
+[2025-05-07T19:49:47.605+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar for tasks to queue
+[2025-05-07T19:49:47.607+0000] {logging_mixin.py:188} INFO - [2025-05-07T19:49:47.607+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar
+[2025-05-07T19:49:47.623+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar
+[2025-05-07T19:49:47.634+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar took 0.033 seconds
+[2025-05-07T19:50:17.860+0000] {processor.py:161} INFO - Started process (PID=3602) to work on /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar
+[2025-05-07T19:50:17.861+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar for tasks to queue
+[2025-05-07T19:50:17.862+0000] {logging_mixin.py:188} INFO - [2025-05-07T19:50:17.862+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar
+[2025-05-07T19:50:17.878+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar
+[2025-05-07T19:50:17.890+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/CoronaProj/postgresql-42.7.5.jar took 0.033 seconds

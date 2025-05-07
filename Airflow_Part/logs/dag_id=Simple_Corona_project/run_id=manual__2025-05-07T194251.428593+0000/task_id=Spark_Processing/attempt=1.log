@@ -1,0 +1,391 @@
+[2025-05-07T19:42:53.361+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: Simple_Corona_project.Spark_Processing manual__2025-05-07T19:42:51.428593+00:00 [queued]>
+[2025-05-07T19:42:53.368+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: Simple_Corona_project.Spark_Processing manual__2025-05-07T19:42:51.428593+00:00 [queued]>
+[2025-05-07T19:42:53.368+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 1
+[2025-05-07T19:42:53.379+0000] {taskinstance.py:2191} INFO - Executing <Task(BashOperator): Spark_Processing> on 2025-05-07 19:42:51.428593+00:00
+[2025-05-07T19:42:53.383+0000] {standard_task_runner.py:60} INFO - Started process 1869 to run task
+[2025-05-07T19:42:53.386+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'Simple_Corona_project', 'Spark_Processing', 'manual__2025-05-07T19:42:51.428593+00:00', '--job-id', '47', '--raw', '--subdir', 'DAGS_FOLDER/Project_tasks2.py', '--cfg-path', '/tmp/tmpqxxb866w']
+[2025-05-07T19:42:53.387+0000] {standard_task_runner.py:88} INFO - Job 47: Subtask Spark_Processing
+[2025-05-07T19:42:53.429+0000] {task_command.py:423} INFO - Running <TaskInstance: Simple_Corona_project.Spark_Processing manual__2025-05-07T19:42:51.428593+00:00 [running]> on host 1a616c0a8036
+[2025-05-07T19:42:53.491+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='Simple_Corona_project' AIRFLOW_CTX_TASK_ID='Spark_Processing' AIRFLOW_CTX_EXECUTION_DATE='2025-05-07T19:42:51.428593+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-05-07T19:42:51.428593+00:00'
+[2025-05-07T19:42:53.492+0000] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2025-05-07T19:42:53.493+0000] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', '\n        cd /opt/***/dags/CoronaProj/\n        spark-submit --jars "/opt/***/dags/CoronaProj/postgresql-42.7.5.jar" Spark_script_process.py\n        ']
+[2025-05-07T19:42:53.501+0000] {subprocess.py:86} INFO - Output:
+[2025-05-07T19:42:55.171+0000] {subprocess.py:93} INFO - 25/05/07 19:42:55 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+[2025-05-07T19:42:56.020+0000] {subprocess.py:93} INFO - 25/05/07 19:42:56 INFO SparkContext: Running Spark version 3.5.5
+[2025-05-07T19:42:56.021+0000] {subprocess.py:93} INFO - 25/05/07 19:42:56 INFO SparkContext: OS info Linux, 5.15.153.1-microsoft-standard-WSL2, amd64
+[2025-05-07T19:42:56.021+0000] {subprocess.py:93} INFO - 25/05/07 19:42:56 INFO SparkContext: Java version 17.0.14
+[2025-05-07T19:42:56.044+0000] {subprocess.py:93} INFO - 25/05/07 19:42:56 INFO ResourceUtils: ==============================================================
+[2025-05-07T19:42:56.045+0000] {subprocess.py:93} INFO - 25/05/07 19:42:56 INFO ResourceUtils: No custom resources configured for spark.driver.
+[2025-05-07T19:42:56.045+0000] {subprocess.py:93} INFO - 25/05/07 19:42:56 INFO ResourceUtils: ==============================================================
+[2025-05-07T19:42:56.045+0000] {subprocess.py:93} INFO - 25/05/07 19:42:56 INFO SparkContext: Submitted application: CoronaProj
+[2025-05-07T19:42:56.060+0000] {subprocess.py:93} INFO - 25/05/07 19:42:56 INFO ResourceProfile: Default ResourceProfile created, executor resources: Map(cores -> name: cores, amount: 1, script: , vendor: , memory -> name: memory, amount: 1024, script: , vendor: , offHeap -> name: offHeap, amount: 0, script: , vendor: ), task resources: Map(cpus -> name: cpus, amount: 1.0)
+[2025-05-07T19:42:56.069+0000] {subprocess.py:93} INFO - 25/05/07 19:42:56 INFO ResourceProfile: Limiting resource is cpu
+[2025-05-07T19:42:56.070+0000] {subprocess.py:93} INFO - 25/05/07 19:42:56 INFO ResourceProfileManager: Added ResourceProfile id: 0
+[2025-05-07T19:42:56.109+0000] {subprocess.py:93} INFO - 25/05/07 19:42:56 INFO SecurityManager: Changing view acls to: ***
+[2025-05-07T19:42:56.109+0000] {subprocess.py:93} INFO - 25/05/07 19:42:56 INFO SecurityManager: Changing modify acls to: ***
+[2025-05-07T19:42:56.110+0000] {subprocess.py:93} INFO - 25/05/07 19:42:56 INFO SecurityManager: Changing view acls groups to:
+[2025-05-07T19:42:56.110+0000] {subprocess.py:93} INFO - 25/05/07 19:42:56 INFO SecurityManager: Changing modify acls groups to:
+[2025-05-07T19:42:56.110+0000] {subprocess.py:93} INFO - 25/05/07 19:42:56 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users with view permissions: ***; groups with view permissions: EMPTY; users with modify permissions: ***; groups with modify permissions: EMPTY
+[2025-05-07T19:42:56.271+0000] {subprocess.py:93} INFO - 25/05/07 19:42:56 INFO Utils: Successfully started service 'sparkDriver' on port 46839.
+[2025-05-07T19:42:56.290+0000] {subprocess.py:93} INFO - 25/05/07 19:42:56 INFO SparkEnv: Registering MapOutputTracker
+[2025-05-07T19:42:56.315+0000] {subprocess.py:93} INFO - 25/05/07 19:42:56 INFO SparkEnv: Registering BlockManagerMaster
+[2025-05-07T19:42:56.329+0000] {subprocess.py:93} INFO - 25/05/07 19:42:56 INFO BlockManagerMasterEndpoint: Using org.apache.spark.storage.DefaultTopologyMapper for getting topology information
+[2025-05-07T19:42:56.329+0000] {subprocess.py:93} INFO - 25/05/07 19:42:56 INFO BlockManagerMasterEndpoint: BlockManagerMasterEndpoint up
+[2025-05-07T19:42:56.333+0000] {subprocess.py:93} INFO - 25/05/07 19:42:56 INFO SparkEnv: Registering BlockManagerMasterHeartbeat
+[2025-05-07T19:42:56.349+0000] {subprocess.py:93} INFO - 25/05/07 19:42:56 INFO DiskBlockManager: Created local directory at /tmp/blockmgr-21ddc4d9-dd82-4d5d-8b5e-af383cbea94a
+[2025-05-07T19:42:56.360+0000] {subprocess.py:93} INFO - 25/05/07 19:42:56 INFO MemoryStore: MemoryStore started with capacity 434.4 MiB
+[2025-05-07T19:42:56.380+0000] {subprocess.py:93} INFO - 25/05/07 19:42:56 INFO SparkEnv: Registering OutputCommitCoordinator
+[2025-05-07T19:42:56.479+0000] {subprocess.py:93} INFO - 25/05/07 19:42:56 INFO JettyUtils: Start Jetty 0.0.0.0:4040 for SparkUI
+[2025-05-07T19:42:56.523+0000] {subprocess.py:93} INFO - 25/05/07 19:42:56 INFO Utils: Successfully started service 'SparkUI' on port 4040.
+[2025-05-07T19:42:56.557+0000] {subprocess.py:93} INFO - 25/05/07 19:42:56 INFO SparkContext: Added JAR /opt/***/dags/CoronaProj/postgresql-42.7.5.jar at spark://1a616c0a8036:46839/jars/postgresql-42.7.5.jar with timestamp 1746646976014
+[2025-05-07T19:42:56.602+0000] {subprocess.py:93} INFO - 25/05/07 19:42:56 INFO Executor: Starting executor ID driver on host 1a616c0a8036
+[2025-05-07T19:42:56.602+0000] {subprocess.py:93} INFO - 25/05/07 19:42:56 INFO Executor: OS info Linux, 5.15.153.1-microsoft-standard-WSL2, amd64
+[2025-05-07T19:42:56.603+0000] {subprocess.py:93} INFO - 25/05/07 19:42:56 INFO Executor: Java version 17.0.14
+[2025-05-07T19:42:56.607+0000] {subprocess.py:93} INFO - 25/05/07 19:42:56 INFO Executor: Starting executor with user classpath (userClassPathFirst = false): ''
+[2025-05-07T19:42:56.607+0000] {subprocess.py:93} INFO - 25/05/07 19:42:56 INFO Executor: Created or updated repl class loader org.apache.spark.util.MutableURLClassLoader@70b569c3 for default.
+[2025-05-07T19:42:56.617+0000] {subprocess.py:93} INFO - 25/05/07 19:42:56 INFO Executor: Fetching spark://1a616c0a8036:46839/jars/postgresql-42.7.5.jar with timestamp 1746646976014
+[2025-05-07T19:42:56.655+0000] {subprocess.py:93} INFO - 25/05/07 19:42:56 INFO TransportClientFactory: Successfully created connection to 1a616c0a8036/172.18.0.5:46839 after 18 ms (0 ms spent in bootstraps)
+[2025-05-07T19:42:56.659+0000] {subprocess.py:93} INFO - 25/05/07 19:42:56 INFO Utils: Fetching spark://1a616c0a8036:46839/jars/postgresql-42.7.5.jar to /tmp/spark-661e57d5-587e-40db-b0e2-80d9de0632f0/userFiles-e102be00-e3cf-4dd3-af09-09f80ebc2c36/fetchFileTemp16765228424078591895.tmp
+[2025-05-07T19:42:56.691+0000] {subprocess.py:93} INFO - 25/05/07 19:42:56 INFO Executor: Adding file:/tmp/spark-661e57d5-587e-40db-b0e2-80d9de0632f0/userFiles-e102be00-e3cf-4dd3-af09-09f80ebc2c36/postgresql-42.7.5.jar to class loader default
+[2025-05-07T19:42:56.698+0000] {subprocess.py:93} INFO - 25/05/07 19:42:56 INFO Utils: Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 32993.
+[2025-05-07T19:42:56.698+0000] {subprocess.py:93} INFO - 25/05/07 19:42:56 INFO NettyBlockTransferService: Server created on 1a616c0a8036:32993
+[2025-05-07T19:42:56.700+0000] {subprocess.py:93} INFO - 25/05/07 19:42:56 INFO BlockManager: Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy
+[2025-05-07T19:42:56.705+0000] {subprocess.py:93} INFO - 25/05/07 19:42:56 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, 1a616c0a8036, 32993, None)
+[2025-05-07T19:42:56.708+0000] {subprocess.py:93} INFO - 25/05/07 19:42:56 INFO BlockManagerMasterEndpoint: Registering block manager 1a616c0a8036:32993 with 434.4 MiB RAM, BlockManagerId(driver, 1a616c0a8036, 32993, None)
+[2025-05-07T19:42:56.709+0000] {subprocess.py:93} INFO - 25/05/07 19:42:56 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, 1a616c0a8036, 32993, None)
+[2025-05-07T19:42:56.710+0000] {subprocess.py:93} INFO - 25/05/07 19:42:56 INFO BlockManager: Initialized BlockManager: BlockManagerId(driver, 1a616c0a8036, 32993, None)
+[2025-05-07T19:42:57.012+0000] {subprocess.py:93} INFO - 25/05/07 19:42:57 INFO SharedState: Setting hive.metastore.warehouse.dir ('null') to the value of spark.sql.warehouse.dir.
+[2025-05-07T19:42:57.013+0000] {subprocess.py:93} INFO - 25/05/07 19:42:57 INFO SharedState: Warehouse path is 'file:/opt/***/dags/CoronaProj/spark-warehouse'.
+[2025-05-07T19:42:57.614+0000] {subprocess.py:93} INFO - 25/05/07 19:42:57 INFO InMemoryFileIndex: It took 43 ms to list leaf files for 1 paths.
+[2025-05-07T19:42:57.725+0000] {subprocess.py:93} INFO - 25/05/07 19:42:57 INFO MemoryStore: Block broadcast_0 stored as values in memory (estimated size 200.8 KiB, free 434.2 MiB)
+[2025-05-07T19:42:57.776+0000] {subprocess.py:93} INFO - 25/05/07 19:42:57 INFO MemoryStore: Block broadcast_0_piece0 stored as bytes in memory (estimated size 34.6 KiB, free 434.2 MiB)
+[2025-05-07T19:42:57.779+0000] {subprocess.py:93} INFO - 25/05/07 19:42:57 INFO BlockManagerInfo: Added broadcast_0_piece0 in memory on 1a616c0a8036:32993 (size: 34.6 KiB, free: 434.4 MiB)
+[2025-05-07T19:42:57.782+0000] {subprocess.py:93} INFO - 25/05/07 19:42:57 INFO SparkContext: Created broadcast 0 from json at NativeMethodAccessorImpl.java:0
+[2025-05-07T19:42:58.146+0000] {subprocess.py:93} INFO - 25/05/07 19:42:58 INFO FileInputFormat: Total input files to process : 1
+[2025-05-07T19:42:58.149+0000] {subprocess.py:93} INFO - 25/05/07 19:42:58 INFO FileInputFormat: Total input files to process : 1
+[2025-05-07T19:42:58.160+0000] {subprocess.py:93} INFO - 25/05/07 19:42:58 INFO SparkContext: Starting job: json at NativeMethodAccessorImpl.java:0
+[2025-05-07T19:42:58.172+0000] {subprocess.py:93} INFO - 25/05/07 19:42:58 INFO DAGScheduler: Got job 0 (json at NativeMethodAccessorImpl.java:0) with 1 output partitions
+[2025-05-07T19:42:58.173+0000] {subprocess.py:93} INFO - 25/05/07 19:42:58 INFO DAGScheduler: Final stage: ResultStage 0 (json at NativeMethodAccessorImpl.java:0)
+[2025-05-07T19:42:58.173+0000] {subprocess.py:93} INFO - 25/05/07 19:42:58 INFO DAGScheduler: Parents of final stage: List()
+[2025-05-07T19:42:58.174+0000] {subprocess.py:93} INFO - 25/05/07 19:42:58 INFO DAGScheduler: Missing parents: List()
+[2025-05-07T19:42:58.177+0000] {subprocess.py:93} INFO - 25/05/07 19:42:58 INFO DAGScheduler: Submitting ResultStage 0 (MapPartitionsRDD[2] at json at NativeMethodAccessorImpl.java:0), which has no missing parents
+[2025-05-07T19:42:58.219+0000] {subprocess.py:93} INFO - 25/05/07 19:42:58 INFO MemoryStore: Block broadcast_1 stored as values in memory (estimated size 9.3 KiB, free 434.2 MiB)
+[2025-05-07T19:42:58.221+0000] {subprocess.py:93} INFO - 25/05/07 19:42:58 INFO MemoryStore: Block broadcast_1_piece0 stored as bytes in memory (estimated size 5.0 KiB, free 434.2 MiB)
+[2025-05-07T19:42:58.221+0000] {subprocess.py:93} INFO - 25/05/07 19:42:58 INFO BlockManagerInfo: Added broadcast_1_piece0 in memory on 1a616c0a8036:32993 (size: 5.0 KiB, free: 434.4 MiB)
+[2025-05-07T19:42:58.223+0000] {subprocess.py:93} INFO - 25/05/07 19:42:58 INFO SparkContext: Created broadcast 1 from broadcast at DAGScheduler.scala:1585
+[2025-05-07T19:42:58.238+0000] {subprocess.py:93} INFO - 25/05/07 19:42:58 INFO DAGScheduler: Submitting 1 missing tasks from ResultStage 0 (MapPartitionsRDD[2] at json at NativeMethodAccessorImpl.java:0) (first 15 tasks are for partitions Vector(0))
+[2025-05-07T19:42:58.238+0000] {subprocess.py:93} INFO - 25/05/07 19:42:58 INFO TaskSchedulerImpl: Adding task set 0.0 with 1 tasks resource profile 0
+[2025-05-07T19:42:58.275+0000] {subprocess.py:93} INFO - 25/05/07 19:42:58 INFO TaskSetManager: Starting task 0.0 in stage 0.0 (TID 0) (1a616c0a8036, executor driver, partition 0, PROCESS_LOCAL, 9314 bytes)
+[2025-05-07T19:42:58.286+0000] {subprocess.py:93} INFO - 25/05/07 19:42:58 INFO Executor: Running task 0.0 in stage 0.0 (TID 0)
+[2025-05-07T19:42:58.344+0000] {subprocess.py:93} INFO - 25/05/07 19:42:58 INFO BinaryFileRDD: Input split: Paths:/opt/***/dags/CoronaProj/data.json:0+213782
+[2025-05-07T19:42:58.507+0000] {subprocess.py:93} INFO - 25/05/07 19:42:58 INFO Executor: Finished task 0.0 in stage 0.0 (TID 0). 2671 bytes result sent to driver
+[2025-05-07T19:42:58.522+0000] {subprocess.py:93} INFO - 25/05/07 19:42:58 INFO TaskSetManager: Finished task 0.0 in stage 0.0 (TID 0) in 259 ms on 1a616c0a8036 (executor driver) (1/1)
+[2025-05-07T19:42:58.525+0000] {subprocess.py:93} INFO - 25/05/07 19:42:58 INFO TaskSchedulerImpl: Removed TaskSet 0.0, whose tasks have all completed, from pool
+[2025-05-07T19:42:58.531+0000] {subprocess.py:93} INFO - 25/05/07 19:42:58 INFO DAGScheduler: ResultStage 0 (json at NativeMethodAccessorImpl.java:0) finished in 0.343 s
+[2025-05-07T19:42:58.535+0000] {subprocess.py:93} INFO - 25/05/07 19:42:58 INFO DAGScheduler: Job 0 is finished. Cancelling potential speculative or zombie tasks for this job
+[2025-05-07T19:42:58.536+0000] {subprocess.py:93} INFO - 25/05/07 19:42:58 INFO TaskSchedulerImpl: Killing all running tasks in stage 0: Stage finished
+[2025-05-07T19:42:58.538+0000] {subprocess.py:93} INFO - 25/05/07 19:42:58 INFO DAGScheduler: Job 0 finished: json at NativeMethodAccessorImpl.java:0, took 0.376587 s
+[2025-05-07T19:42:59.751+0000] {subprocess.py:93} INFO - 25/05/07 19:42:59 INFO FileSourceStrategy: Pushed Filters: IsNotNull(cases),IsNotNull(deaths),IsNotNull(recovered),GreaterThanOrEqual(cases,0),GreaterThanOrEqual(deaths,0),GreaterThanOrEqual(recovered,0)
+[2025-05-07T19:42:59.753+0000] {subprocess.py:93} INFO - 25/05/07 19:42:59 INFO FileSourceStrategy: Post-Scan Filters: isnotnull(cases#2L),isnotnull(deaths#9L),isnotnull(recovered#15L),(cases#2L >= 0),(deaths#9L >= 0),(recovered#15L >= 0),atleastnnonnulls(6, continent#4, country#5, cases#2L, deaths#9L, recovered#15L, cast(from_unixtime(cast((cast(updated#22L as double) / 1000.0) as bigint), yyyy-MM-dd HH:mm:ss, Some(Africa/Cairo)) as timestamp))
+[2025-05-07T19:42:59.996+0000] {subprocess.py:93} INFO - 25/05/07 19:42:59 INFO BlockManagerInfo: Removed broadcast_0_piece0 on 1a616c0a8036:32993 in memory (size: 34.6 KiB, free: 434.4 MiB)
+[2025-05-07T19:43:00.002+0000] {subprocess.py:93} INFO - 25/05/07 19:43:00 INFO BlockManagerInfo: Removed broadcast_1_piece0 on 1a616c0a8036:32993 in memory (size: 5.0 KiB, free: 434.4 MiB)
+[2025-05-07T19:43:00.197+0000] {subprocess.py:93} INFO - 25/05/07 19:43:00 INFO CodeGenerator: Code generated in 229.210015 ms
+[2025-05-07T19:43:00.206+0000] {subprocess.py:93} INFO - 25/05/07 19:43:00 INFO MemoryStore: Block broadcast_2 stored as values in memory (estimated size 200.2 KiB, free 434.2 MiB)
+[2025-05-07T19:43:00.220+0000] {subprocess.py:93} INFO - 25/05/07 19:43:00 INFO MemoryStore: Block broadcast_2_piece0 stored as bytes in memory (estimated size 34.6 KiB, free 434.2 MiB)
+[2025-05-07T19:43:00.221+0000] {subprocess.py:93} INFO - 25/05/07 19:43:00 INFO BlockManagerInfo: Added broadcast_2_piece0 in memory on 1a616c0a8036:32993 (size: 34.6 KiB, free: 434.4 MiB)
+[2025-05-07T19:43:00.222+0000] {subprocess.py:93} INFO - 25/05/07 19:43:00 INFO SparkContext: Created broadcast 2 from count at NativeMethodAccessorImpl.java:0
+[2025-05-07T19:43:00.233+0000] {subprocess.py:93} INFO - 25/05/07 19:43:00 INFO FileSourceScanExec: Planning scan with bin packing, max size: 4194304 bytes, open cost is considered as scanning 4194304 bytes.
+[2025-05-07T19:43:00.271+0000] {subprocess.py:93} INFO - 25/05/07 19:43:00 INFO DAGScheduler: Registering RDD 6 (count at NativeMethodAccessorImpl.java:0) as input to shuffle 0
+[2025-05-07T19:43:00.274+0000] {subprocess.py:93} INFO - 25/05/07 19:43:00 INFO DAGScheduler: Got map stage job 1 (count at NativeMethodAccessorImpl.java:0) with 1 output partitions
+[2025-05-07T19:43:00.275+0000] {subprocess.py:93} INFO - 25/05/07 19:43:00 INFO DAGScheduler: Final stage: ShuffleMapStage 1 (count at NativeMethodAccessorImpl.java:0)
+[2025-05-07T19:43:00.275+0000] {subprocess.py:93} INFO - 25/05/07 19:43:00 INFO DAGScheduler: Parents of final stage: List()
+[2025-05-07T19:43:00.275+0000] {subprocess.py:93} INFO - 25/05/07 19:43:00 INFO DAGScheduler: Missing parents: List()
+[2025-05-07T19:43:00.276+0000] {subprocess.py:93} INFO - 25/05/07 19:43:00 INFO DAGScheduler: Submitting ShuffleMapStage 1 (MapPartitionsRDD[6] at count at NativeMethodAccessorImpl.java:0), which has no missing parents
+[2025-05-07T19:43:00.313+0000] {subprocess.py:93} INFO - 25/05/07 19:43:00 INFO MemoryStore: Block broadcast_3 stored as values in memory (estimated size 22.5 KiB, free 434.1 MiB)
+[2025-05-07T19:43:00.314+0000] {subprocess.py:93} INFO - 25/05/07 19:43:00 INFO MemoryStore: Block broadcast_3_piece0 stored as bytes in memory (estimated size 10.3 KiB, free 434.1 MiB)
+[2025-05-07T19:43:00.315+0000] {subprocess.py:93} INFO - 25/05/07 19:43:00 INFO BlockManagerInfo: Added broadcast_3_piece0 in memory on 1a616c0a8036:32993 (size: 10.3 KiB, free: 434.4 MiB)
+[2025-05-07T19:43:00.316+0000] {subprocess.py:93} INFO - 25/05/07 19:43:00 INFO SparkContext: Created broadcast 3 from broadcast at DAGScheduler.scala:1585
+[2025-05-07T19:43:00.318+0000] {subprocess.py:93} INFO - 25/05/07 19:43:00 INFO DAGScheduler: Submitting 1 missing tasks from ShuffleMapStage 1 (MapPartitionsRDD[6] at count at NativeMethodAccessorImpl.java:0) (first 15 tasks are for partitions Vector(0))
+[2025-05-07T19:43:00.318+0000] {subprocess.py:93} INFO - 25/05/07 19:43:00 INFO TaskSchedulerImpl: Adding task set 1.0 with 1 tasks resource profile 0
+[2025-05-07T19:43:00.322+0000] {subprocess.py:93} INFO - 25/05/07 19:43:00 INFO TaskSetManager: Starting task 0.0 in stage 1.0 (TID 1) (1a616c0a8036, executor driver, partition 0, PROCESS_LOCAL, 9776 bytes)
+[2025-05-07T19:43:00.323+0000] {subprocess.py:93} INFO - 25/05/07 19:43:00 INFO Executor: Running task 0.0 in stage 1.0 (TID 1)
+[2025-05-07T19:43:00.379+0000] {subprocess.py:93} INFO - 25/05/07 19:43:00 INFO CodeGenerator: Code generated in 24.586288 ms
+[2025-05-07T19:43:00.386+0000] {subprocess.py:93} INFO - 25/05/07 19:43:00 INFO FileScanRDD: Reading File path: file:///opt/***/dags/CoronaProj/data.json, range: 0-213782, partition values: [empty row]
+[2025-05-07T19:43:00.410+0000] {subprocess.py:93} INFO - 25/05/07 19:43:00 INFO CodeGenerator: Code generated in 15.545335 ms
+[2025-05-07T19:43:00.430+0000] {subprocess.py:93} INFO - 25/05/07 19:43:00 INFO CodeGenerator: Code generated in 6.316977 ms
+[2025-05-07T19:43:00.439+0000] {subprocess.py:93} INFO - 25/05/07 19:43:00 INFO CodeGenerator: Code generated in 5.801163 ms
+[2025-05-07T19:43:00.448+0000] {subprocess.py:93} INFO - 25/05/07 19:43:00 INFO CodeGenerator: Code generated in 5.584156 ms
+[2025-05-07T19:43:00.546+0000] {subprocess.py:93} INFO - 25/05/07 19:43:00 INFO Executor: Finished task 0.0 in stage 1.0 (TID 1). 1984 bytes result sent to driver
+[2025-05-07T19:43:00.549+0000] {subprocess.py:93} INFO - 25/05/07 19:43:00 INFO TaskSetManager: Finished task 0.0 in stage 1.0 (TID 1) in 230 ms on 1a616c0a8036 (executor driver) (1/1)
+[2025-05-07T19:43:00.550+0000] {subprocess.py:93} INFO - 25/05/07 19:43:00 INFO TaskSchedulerImpl: Removed TaskSet 1.0, whose tasks have all completed, from pool
+[2025-05-07T19:43:00.560+0000] {subprocess.py:93} INFO - 25/05/07 19:43:00 INFO DAGScheduler: ShuffleMapStage 1 (count at NativeMethodAccessorImpl.java:0) finished in 0.272 s
+[2025-05-07T19:43:00.560+0000] {subprocess.py:93} INFO - 25/05/07 19:43:00 INFO DAGScheduler: looking for newly runnable stages
+[2025-05-07T19:43:00.561+0000] {subprocess.py:93} INFO - 25/05/07 19:43:00 INFO DAGScheduler: running: Set()
+[2025-05-07T19:43:00.561+0000] {subprocess.py:93} INFO - 25/05/07 19:43:00 INFO DAGScheduler: waiting: Set()
+[2025-05-07T19:43:00.562+0000] {subprocess.py:93} INFO - 25/05/07 19:43:00 INFO DAGScheduler: failed: Set()
+[2025-05-07T19:43:00.597+0000] {subprocess.py:93} INFO - 25/05/07 19:43:00 INFO CodeGenerator: Code generated in 8.084327 ms
+[2025-05-07T19:43:00.618+0000] {subprocess.py:93} INFO - 25/05/07 19:43:00 INFO SparkContext: Starting job: count at NativeMethodAccessorImpl.java:0
+[2025-05-07T19:43:00.620+0000] {subprocess.py:93} INFO - 25/05/07 19:43:00 INFO DAGScheduler: Got job 2 (count at NativeMethodAccessorImpl.java:0) with 1 output partitions
+[2025-05-07T19:43:00.620+0000] {subprocess.py:93} INFO - 25/05/07 19:43:00 INFO DAGScheduler: Final stage: ResultStage 3 (count at NativeMethodAccessorImpl.java:0)
+[2025-05-07T19:43:00.621+0000] {subprocess.py:93} INFO - 25/05/07 19:43:00 INFO DAGScheduler: Parents of final stage: List(ShuffleMapStage 2)
+[2025-05-07T19:43:00.622+0000] {subprocess.py:93} INFO - 25/05/07 19:43:00 INFO DAGScheduler: Missing parents: List()
+[2025-05-07T19:43:00.622+0000] {subprocess.py:93} INFO - 25/05/07 19:43:00 INFO DAGScheduler: Submitting ResultStage 3 (MapPartitionsRDD[9] at count at NativeMethodAccessorImpl.java:0), which has no missing parents
+[2025-05-07T19:43:00.628+0000] {subprocess.py:93} INFO - 25/05/07 19:43:00 INFO MemoryStore: Block broadcast_4 stored as values in memory (estimated size 12.5 KiB, free 434.1 MiB)
+[2025-05-07T19:43:00.629+0000] {subprocess.py:93} INFO - 25/05/07 19:43:00 INFO MemoryStore: Block broadcast_4_piece0 stored as bytes in memory (estimated size 5.9 KiB, free 434.1 MiB)
+[2025-05-07T19:43:00.630+0000] {subprocess.py:93} INFO - 25/05/07 19:43:00 INFO BlockManagerInfo: Added broadcast_4_piece0 in memory on 1a616c0a8036:32993 (size: 5.9 KiB, free: 434.4 MiB)
+[2025-05-07T19:43:00.631+0000] {subprocess.py:93} INFO - 25/05/07 19:43:00 INFO SparkContext: Created broadcast 4 from broadcast at DAGScheduler.scala:1585
+[2025-05-07T19:43:00.632+0000] {subprocess.py:93} INFO - 25/05/07 19:43:00 INFO DAGScheduler: Submitting 1 missing tasks from ResultStage 3 (MapPartitionsRDD[9] at count at NativeMethodAccessorImpl.java:0) (first 15 tasks are for partitions Vector(0))
+[2025-05-07T19:43:00.632+0000] {subprocess.py:93} INFO - 25/05/07 19:43:00 INFO TaskSchedulerImpl: Adding task set 3.0 with 1 tasks resource profile 0
+[2025-05-07T19:43:00.637+0000] {subprocess.py:93} INFO - 25/05/07 19:43:00 INFO TaskSetManager: Starting task 0.0 in stage 3.0 (TID 2) (1a616c0a8036, executor driver, partition 0, NODE_LOCAL, 9179 bytes)
+[2025-05-07T19:43:00.638+0000] {subprocess.py:93} INFO - 25/05/07 19:43:00 INFO Executor: Running task 0.0 in stage 3.0 (TID 2)
+[2025-05-07T19:43:00.671+0000] {subprocess.py:93} INFO - 25/05/07 19:43:00 INFO ShuffleBlockFetcherIterator: Getting 1 (60.0 B) non-empty blocks including 1 (60.0 B) local and 0 (0.0 B) host-local and 0 (0.0 B) push-merged-local and 0 (0.0 B) remote blocks
+[2025-05-07T19:43:00.674+0000] {subprocess.py:93} INFO - 25/05/07 19:43:00 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 8 ms
+[2025-05-07T19:43:00.685+0000] {subprocess.py:93} INFO - 25/05/07 19:43:00 INFO CodeGenerator: Code generated in 8.696444 ms
+[2025-05-07T19:43:00.696+0000] {subprocess.py:93} INFO - 25/05/07 19:43:00 INFO Executor: Finished task 0.0 in stage 3.0 (TID 2). 4038 bytes result sent to driver
+[2025-05-07T19:43:00.699+0000] {subprocess.py:93} INFO - 25/05/07 19:43:00 INFO TaskSetManager: Finished task 0.0 in stage 3.0 (TID 2) in 64 ms on 1a616c0a8036 (executor driver) (1/1)
+[2025-05-07T19:43:00.700+0000] {subprocess.py:93} INFO - 25/05/07 19:43:00 INFO TaskSchedulerImpl: Removed TaskSet 3.0, whose tasks have all completed, from pool
+[2025-05-07T19:43:00.700+0000] {subprocess.py:93} INFO - 25/05/07 19:43:00 INFO DAGScheduler: ResultStage 3 (count at NativeMethodAccessorImpl.java:0) finished in 0.074 s
+[2025-05-07T19:43:00.701+0000] {subprocess.py:93} INFO - 25/05/07 19:43:00 INFO DAGScheduler: Job 2 is finished. Cancelling potential speculative or zombie tasks for this job
+[2025-05-07T19:43:00.701+0000] {subprocess.py:93} INFO - 25/05/07 19:43:00 INFO TaskSchedulerImpl: Killing all running tasks in stage 3: Stage finished
+[2025-05-07T19:43:00.701+0000] {subprocess.py:93} INFO - 25/05/07 19:43:00 INFO DAGScheduler: Job 2 finished: count at NativeMethodAccessorImpl.java:0, took 0.083225 s
+[2025-05-07T19:43:00.806+0000] {subprocess.py:93} INFO - 25/05/07 19:43:00 INFO FileSourceStrategy: Pushed Filters: IsNotNull(cases),IsNotNull(deaths),IsNotNull(recovered),GreaterThanOrEqual(cases,0),GreaterThanOrEqual(deaths,0),GreaterThanOrEqual(recovered,0)
+[2025-05-07T19:43:00.807+0000] {subprocess.py:93} INFO - 25/05/07 19:43:00 INFO FileSourceStrategy: Post-Scan Filters: isnotnull(cases#2L),isnotnull(deaths#9L),isnotnull(recovered#15L),(cases#2L >= 0),(deaths#9L >= 0),(recovered#15L >= 0),atleastnnonnulls(6, continent#4, country#5, cases#2L, deaths#9L, recovered#15L, cast(from_unixtime(cast((cast(updated#22L as double) / 1000.0) as bigint), yyyy-MM-dd HH:mm:ss, Some(Africa/Cairo)) as timestamp))
+[2025-05-07T19:43:00.915+0000] {subprocess.py:93} INFO - 25/05/07 19:43:00 INFO CodeGenerator: Code generated in 52.646074 ms
+[2025-05-07T19:43:00.919+0000] {subprocess.py:93} INFO - 25/05/07 19:43:00 INFO MemoryStore: Block broadcast_5 stored as values in memory (estimated size 200.2 KiB, free 433.9 MiB)
+[2025-05-07T19:43:00.928+0000] {subprocess.py:93} INFO - 25/05/07 19:43:00 INFO MemoryStore: Block broadcast_5_piece0 stored as bytes in memory (estimated size 34.6 KiB, free 433.9 MiB)
+[2025-05-07T19:43:00.928+0000] {subprocess.py:93} INFO - 25/05/07 19:43:00 INFO BlockManagerInfo: Added broadcast_5_piece0 in memory on 1a616c0a8036:32993 (size: 34.6 KiB, free: 434.3 MiB)
+[2025-05-07T19:43:00.929+0000] {subprocess.py:93} INFO - 25/05/07 19:43:00 INFO SparkContext: Created broadcast 5 from collect at /opt/***/dags/CoronaProj/Spark_script_process.py:52
+[2025-05-07T19:43:00.931+0000] {subprocess.py:93} INFO - 25/05/07 19:43:00 INFO FileSourceScanExec: Planning scan with bin packing, max size: 4194304 bytes, open cost is considered as scanning 4194304 bytes.
+[2025-05-07T19:43:00.969+0000] {subprocess.py:93} INFO - 25/05/07 19:43:00 INFO DAGScheduler: Registering RDD 13 (collect at /opt/***/dags/CoronaProj/Spark_script_process.py:52) as input to shuffle 1
+[2025-05-07T19:43:00.970+0000] {subprocess.py:93} INFO - 25/05/07 19:43:00 INFO DAGScheduler: Got map stage job 3 (collect at /opt/***/dags/CoronaProj/Spark_script_process.py:52) with 1 output partitions
+[2025-05-07T19:43:00.970+0000] {subprocess.py:93} INFO - 25/05/07 19:43:00 INFO DAGScheduler: Final stage: ShuffleMapStage 4 (collect at /opt/***/dags/CoronaProj/Spark_script_process.py:52)
+[2025-05-07T19:43:00.971+0000] {subprocess.py:93} INFO - 25/05/07 19:43:00 INFO DAGScheduler: Parents of final stage: List()
+[2025-05-07T19:43:00.972+0000] {subprocess.py:93} INFO - 25/05/07 19:43:00 INFO DAGScheduler: Missing parents: List()
+[2025-05-07T19:43:00.972+0000] {subprocess.py:93} INFO - 25/05/07 19:43:00 INFO DAGScheduler: Submitting ShuffleMapStage 4 (MapPartitionsRDD[13] at collect at /opt/***/dags/CoronaProj/Spark_script_process.py:52), which has no missing parents
+[2025-05-07T19:43:00.976+0000] {subprocess.py:93} INFO - 25/05/07 19:43:00 INFO MemoryStore: Block broadcast_6 stored as values in memory (estimated size 46.0 KiB, free 433.8 MiB)
+[2025-05-07T19:43:00.978+0000] {subprocess.py:93} INFO - 25/05/07 19:43:00 INFO MemoryStore: Block broadcast_6_piece0 stored as bytes in memory (estimated size 20.9 KiB, free 433.8 MiB)
+[2025-05-07T19:43:00.980+0000] {subprocess.py:93} INFO - 25/05/07 19:43:00 INFO BlockManagerInfo: Added broadcast_6_piece0 in memory on 1a616c0a8036:32993 (size: 20.9 KiB, free: 434.3 MiB)
+[2025-05-07T19:43:00.981+0000] {subprocess.py:93} INFO - 25/05/07 19:43:00 INFO SparkContext: Created broadcast 6 from broadcast at DAGScheduler.scala:1585
+[2025-05-07T19:43:00.982+0000] {subprocess.py:93} INFO - 25/05/07 19:43:00 INFO DAGScheduler: Submitting 1 missing tasks from ShuffleMapStage 4 (MapPartitionsRDD[13] at collect at /opt/***/dags/CoronaProj/Spark_script_process.py:52) (first 15 tasks are for partitions Vector(0))
+[2025-05-07T19:43:00.982+0000] {subprocess.py:93} INFO - 25/05/07 19:43:00 INFO TaskSchedulerImpl: Adding task set 4.0 with 1 tasks resource profile 0
+[2025-05-07T19:43:00.983+0000] {subprocess.py:93} INFO - 25/05/07 19:43:00 INFO TaskSetManager: Starting task 0.0 in stage 4.0 (TID 3) (1a616c0a8036, executor driver, partition 0, PROCESS_LOCAL, 9776 bytes)
+[2025-05-07T19:43:00.984+0000] {subprocess.py:93} INFO - 25/05/07 19:43:00 INFO Executor: Running task 0.0 in stage 4.0 (TID 3)
+[2025-05-07T19:43:01.042+0000] {subprocess.py:93} INFO - 25/05/07 19:43:01 INFO CodeGenerator: Code generated in 40.410731 ms
+[2025-05-07T19:43:01.057+0000] {subprocess.py:93} INFO - 25/05/07 19:43:01 INFO CodeGenerator: Code generated in 9.154056 ms
+[2025-05-07T19:43:01.065+0000] {subprocess.py:93} INFO - 25/05/07 19:43:01 INFO CodeGenerator: Code generated in 5.488754 ms
+[2025-05-07T19:43:01.079+0000] {subprocess.py:93} INFO - 25/05/07 19:43:01 INFO CodeGenerator: Code generated in 5.857764 ms
+[2025-05-07T19:43:01.086+0000] {subprocess.py:93} INFO - 25/05/07 19:43:01 INFO FileScanRDD: Reading File path: file:///opt/***/dags/CoronaProj/data.json, range: 0-213782, partition values: [empty row]
+[2025-05-07T19:43:01.193+0000] {subprocess.py:93} INFO - 25/05/07 19:43:01 INFO Executor: Finished task 0.0 in stage 4.0 (TID 3). 2778 bytes result sent to driver
+[2025-05-07T19:43:01.195+0000] {subprocess.py:93} INFO - 25/05/07 19:43:01 INFO TaskSetManager: Finished task 0.0 in stage 4.0 (TID 3) in 211 ms on 1a616c0a8036 (executor driver) (1/1)
+[2025-05-07T19:43:01.195+0000] {subprocess.py:93} INFO - 25/05/07 19:43:01 INFO TaskSchedulerImpl: Removed TaskSet 4.0, whose tasks have all completed, from pool
+[2025-05-07T19:43:01.196+0000] {subprocess.py:93} INFO - 25/05/07 19:43:01 INFO DAGScheduler: ShuffleMapStage 4 (collect at /opt/***/dags/CoronaProj/Spark_script_process.py:52) finished in 0.224 s
+[2025-05-07T19:43:01.196+0000] {subprocess.py:93} INFO - 25/05/07 19:43:01 INFO DAGScheduler: looking for newly runnable stages
+[2025-05-07T19:43:01.197+0000] {subprocess.py:93} INFO - 25/05/07 19:43:01 INFO DAGScheduler: running: Set()
+[2025-05-07T19:43:01.197+0000] {subprocess.py:93} INFO - 25/05/07 19:43:01 INFO DAGScheduler: waiting: Set()
+[2025-05-07T19:43:01.198+0000] {subprocess.py:93} INFO - 25/05/07 19:43:01 INFO DAGScheduler: failed: Set()
+[2025-05-07T19:43:01.206+0000] {subprocess.py:93} INFO - 25/05/07 19:43:01 INFO ShufflePartitionsUtil: For shuffle(1), advisory target size: 67108864, actual target size 1048576, minimum partition size: 1048576
+[2025-05-07T19:43:01.255+0000] {subprocess.py:93} INFO - 25/05/07 19:43:01 INFO CodeGenerator: Code generated in 22.653134 ms
+[2025-05-07T19:43:01.276+0000] {subprocess.py:93} INFO - 25/05/07 19:43:01 INFO DAGScheduler: Registering RDD 16 (collect at /opt/***/dags/CoronaProj/Spark_script_process.py:52) as input to shuffle 2
+[2025-05-07T19:43:01.276+0000] {subprocess.py:93} INFO - 25/05/07 19:43:01 INFO DAGScheduler: Got map stage job 4 (collect at /opt/***/dags/CoronaProj/Spark_script_process.py:52) with 1 output partitions
+[2025-05-07T19:43:01.277+0000] {subprocess.py:93} INFO - 25/05/07 19:43:01 INFO DAGScheduler: Final stage: ShuffleMapStage 6 (collect at /opt/***/dags/CoronaProj/Spark_script_process.py:52)
+[2025-05-07T19:43:01.277+0000] {subprocess.py:93} INFO - 25/05/07 19:43:01 INFO DAGScheduler: Parents of final stage: List(ShuffleMapStage 5)
+[2025-05-07T19:43:01.278+0000] {subprocess.py:93} INFO - 25/05/07 19:43:01 INFO DAGScheduler: Missing parents: List()
+[2025-05-07T19:43:01.278+0000] {subprocess.py:93} INFO - 25/05/07 19:43:01 INFO DAGScheduler: Submitting ShuffleMapStage 6 (MapPartitionsRDD[16] at collect at /opt/***/dags/CoronaProj/Spark_script_process.py:52), which has no missing parents
+[2025-05-07T19:43:01.291+0000] {subprocess.py:93} INFO - 25/05/07 19:43:01 INFO MemoryStore: Block broadcast_7 stored as values in memory (estimated size 57.0 KiB, free 433.8 MiB)
+[2025-05-07T19:43:01.292+0000] {subprocess.py:93} INFO - 25/05/07 19:43:01 INFO MemoryStore: Block broadcast_7_piece0 stored as bytes in memory (estimated size 24.8 KiB, free 433.7 MiB)
+[2025-05-07T19:43:01.293+0000] {subprocess.py:93} INFO - 25/05/07 19:43:01 INFO BlockManagerInfo: Added broadcast_7_piece0 in memory on 1a616c0a8036:32993 (size: 24.8 KiB, free: 434.3 MiB)
+[2025-05-07T19:43:01.293+0000] {subprocess.py:93} INFO - 25/05/07 19:43:01 INFO SparkContext: Created broadcast 7 from broadcast at DAGScheduler.scala:1585
+[2025-05-07T19:43:01.294+0000] {subprocess.py:93} INFO - 25/05/07 19:43:01 INFO DAGScheduler: Submitting 1 missing tasks from ShuffleMapStage 6 (MapPartitionsRDD[16] at collect at /opt/***/dags/CoronaProj/Spark_script_process.py:52) (first 15 tasks are for partitions Vector(0))
+[2025-05-07T19:43:01.295+0000] {subprocess.py:93} INFO - 25/05/07 19:43:01 INFO TaskSchedulerImpl: Adding task set 6.0 with 1 tasks resource profile 0
+[2025-05-07T19:43:01.296+0000] {subprocess.py:93} INFO - 25/05/07 19:43:01 INFO TaskSetManager: Starting task 0.0 in stage 6.0 (TID 4) (1a616c0a8036, executor driver, partition 0, NODE_LOCAL, 9168 bytes)
+[2025-05-07T19:43:01.297+0000] {subprocess.py:93} INFO - 25/05/07 19:43:01 INFO Executor: Running task 0.0 in stage 6.0 (TID 4)
+[2025-05-07T19:43:01.311+0000] {subprocess.py:93} INFO - 25/05/07 19:43:01 INFO ShuffleBlockFetcherIterator: Getting 1 (12.3 KiB) non-empty blocks including 1 (12.3 KiB) local and 0 (0.0 B) host-local and 0 (0.0 B) push-merged-local and 0 (0.0 B) remote blocks
+[2025-05-07T19:43:01.311+0000] {subprocess.py:93} INFO - 25/05/07 19:43:01 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 1 ms
+[2025-05-07T19:43:01.328+0000] {subprocess.py:93} INFO - 25/05/07 19:43:01 INFO BlockManagerInfo: Removed broadcast_6_piece0 on 1a616c0a8036:32993 in memory (size: 20.9 KiB, free: 434.3 MiB)
+[2025-05-07T19:43:01.332+0000] {subprocess.py:93} INFO - 25/05/07 19:43:01 INFO BlockManagerInfo: Removed broadcast_2_piece0 on 1a616c0a8036:32993 in memory (size: 34.6 KiB, free: 434.3 MiB)
+[2025-05-07T19:43:01.337+0000] {subprocess.py:93} INFO - 25/05/07 19:43:01 INFO BlockManagerInfo: Removed broadcast_4_piece0 on 1a616c0a8036:32993 in memory (size: 5.9 KiB, free: 434.3 MiB)
+[2025-05-07T19:43:01.353+0000] {subprocess.py:93} INFO - 25/05/07 19:43:01 INFO BlockManagerInfo: Removed broadcast_3_piece0 on 1a616c0a8036:32993 in memory (size: 10.3 KiB, free: 434.3 MiB)
+[2025-05-07T19:43:01.355+0000] {subprocess.py:93} INFO - 25/05/07 19:43:01 INFO CodeGenerator: Code generated in 43.479517 ms
+[2025-05-07T19:43:01.376+0000] {subprocess.py:93} INFO - 25/05/07 19:43:01 INFO Executor: Finished task 0.0 in stage 6.0 (TID 4). 5694 bytes result sent to driver
+[2025-05-07T19:43:01.377+0000] {subprocess.py:93} INFO - 25/05/07 19:43:01 INFO TaskSetManager: Finished task 0.0 in stage 6.0 (TID 4) in 82 ms on 1a616c0a8036 (executor driver) (1/1)
+[2025-05-07T19:43:01.378+0000] {subprocess.py:93} INFO - 25/05/07 19:43:01 INFO TaskSchedulerImpl: Removed TaskSet 6.0, whose tasks have all completed, from pool
+[2025-05-07T19:43:01.379+0000] {subprocess.py:93} INFO - 25/05/07 19:43:01 INFO DAGScheduler: ShuffleMapStage 6 (collect at /opt/***/dags/CoronaProj/Spark_script_process.py:52) finished in 0.092 s
+[2025-05-07T19:43:01.381+0000] {subprocess.py:93} INFO - 25/05/07 19:43:01 INFO DAGScheduler: looking for newly runnable stages
+[2025-05-07T19:43:01.382+0000] {subprocess.py:93} INFO - 25/05/07 19:43:01 INFO DAGScheduler: running: Set()
+[2025-05-07T19:43:01.383+0000] {subprocess.py:93} INFO - 25/05/07 19:43:01 INFO DAGScheduler: waiting: Set()
+[2025-05-07T19:43:01.383+0000] {subprocess.py:93} INFO - 25/05/07 19:43:01 INFO DAGScheduler: failed: Set()
+[2025-05-07T19:43:01.402+0000] {subprocess.py:93} INFO - 25/05/07 19:43:01 INFO CodeGenerator: Code generated in 7.935122 ms
+[2025-05-07T19:43:01.417+0000] {subprocess.py:93} INFO - 25/05/07 19:43:01 INFO SparkContext: Starting job: collect at /opt/***/dags/CoronaProj/Spark_script_process.py:52
+[2025-05-07T19:43:01.418+0000] {subprocess.py:93} INFO - 25/05/07 19:43:01 INFO DAGScheduler: Got job 5 (collect at /opt/***/dags/CoronaProj/Spark_script_process.py:52) with 1 output partitions
+[2025-05-07T19:43:01.419+0000] {subprocess.py:93} INFO - 25/05/07 19:43:01 INFO DAGScheduler: Final stage: ResultStage 9 (collect at /opt/***/dags/CoronaProj/Spark_script_process.py:52)
+[2025-05-07T19:43:01.419+0000] {subprocess.py:93} INFO - 25/05/07 19:43:01 INFO DAGScheduler: Parents of final stage: List(ShuffleMapStage 8)
+[2025-05-07T19:43:01.420+0000] {subprocess.py:93} INFO - 25/05/07 19:43:01 INFO DAGScheduler: Missing parents: List()
+[2025-05-07T19:43:01.420+0000] {subprocess.py:93} INFO - 25/05/07 19:43:01 INFO DAGScheduler: Submitting ResultStage 9 (MapPartitionsRDD[19] at collect at /opt/***/dags/CoronaProj/Spark_script_process.py:52), which has no missing parents
+[2025-05-07T19:43:01.422+0000] {subprocess.py:93} INFO - 25/05/07 19:43:01 INFO MemoryStore: Block broadcast_8 stored as values in memory (estimated size 12.5 KiB, free 434.1 MiB)
+[2025-05-07T19:43:01.423+0000] {subprocess.py:93} INFO - 25/05/07 19:43:01 INFO MemoryStore: Block broadcast_8_piece0 stored as bytes in memory (estimated size 5.9 KiB, free 434.1 MiB)
+[2025-05-07T19:43:01.424+0000] {subprocess.py:93} INFO - 25/05/07 19:43:01 INFO BlockManagerInfo: Added broadcast_8_piece0 in memory on 1a616c0a8036:32993 (size: 5.9 KiB, free: 434.3 MiB)
+[2025-05-07T19:43:01.424+0000] {subprocess.py:93} INFO - 25/05/07 19:43:01 INFO SparkContext: Created broadcast 8 from broadcast at DAGScheduler.scala:1585
+[2025-05-07T19:43:01.425+0000] {subprocess.py:93} INFO - 25/05/07 19:43:01 INFO DAGScheduler: Submitting 1 missing tasks from ResultStage 9 (MapPartitionsRDD[19] at collect at /opt/***/dags/CoronaProj/Spark_script_process.py:52) (first 15 tasks are for partitions Vector(0))
+[2025-05-07T19:43:01.425+0000] {subprocess.py:93} INFO - 25/05/07 19:43:01 INFO TaskSchedulerImpl: Adding task set 9.0 with 1 tasks resource profile 0
+[2025-05-07T19:43:01.426+0000] {subprocess.py:93} INFO - 25/05/07 19:43:01 INFO TaskSetManager: Starting task 0.0 in stage 9.0 (TID 5) (1a616c0a8036, executor driver, partition 0, NODE_LOCAL, 9179 bytes)
+[2025-05-07T19:43:01.427+0000] {subprocess.py:93} INFO - 25/05/07 19:43:01 INFO Executor: Running task 0.0 in stage 9.0 (TID 5)
+[2025-05-07T19:43:01.431+0000] {subprocess.py:93} INFO - 25/05/07 19:43:01 INFO ShuffleBlockFetcherIterator: Getting 1 (60.0 B) non-empty blocks including 1 (60.0 B) local and 0 (0.0 B) host-local and 0 (0.0 B) push-merged-local and 0 (0.0 B) remote blocks
+[2025-05-07T19:43:01.432+0000] {subprocess.py:93} INFO - 25/05/07 19:43:01 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+[2025-05-07T19:43:01.439+0000] {subprocess.py:93} INFO - 25/05/07 19:43:01 INFO CodeGenerator: Code generated in 6.722889 ms
+[2025-05-07T19:43:01.442+0000] {subprocess.py:93} INFO - 25/05/07 19:43:01 INFO Executor: Finished task 0.0 in stage 9.0 (TID 5). 3995 bytes result sent to driver
+[2025-05-07T19:43:01.444+0000] {subprocess.py:93} INFO - 25/05/07 19:43:01 INFO TaskSetManager: Finished task 0.0 in stage 9.0 (TID 5) in 17 ms on 1a616c0a8036 (executor driver) (1/1)
+[2025-05-07T19:43:01.444+0000] {subprocess.py:93} INFO - 25/05/07 19:43:01 INFO TaskSchedulerImpl: Removed TaskSet 9.0, whose tasks have all completed, from pool
+[2025-05-07T19:43:01.445+0000] {subprocess.py:93} INFO - 25/05/07 19:43:01 INFO DAGScheduler: ResultStage 9 (collect at /opt/***/dags/CoronaProj/Spark_script_process.py:52) finished in 0.024 s
+[2025-05-07T19:43:01.445+0000] {subprocess.py:93} INFO - 25/05/07 19:43:01 INFO DAGScheduler: Job 5 is finished. Cancelling potential speculative or zombie tasks for this job
+[2025-05-07T19:43:01.446+0000] {subprocess.py:93} INFO - 25/05/07 19:43:01 INFO TaskSchedulerImpl: Killing all running tasks in stage 9: Stage finished
+[2025-05-07T19:43:01.447+0000] {subprocess.py:93} INFO - 25/05/07 19:43:01 INFO DAGScheduler: Job 5 finished: collect at /opt/***/dags/CoronaProj/Spark_script_process.py:52, took 0.028807 s
+[2025-05-07T19:43:01.464+0000] {subprocess.py:93} INFO - countries are unqiue
+[2025-05-07T19:43:01.630+0000] {subprocess.py:93} INFO - 25/05/07 19:43:01 INFO FileSourceStrategy: Pushed Filters: IsNotNull(cases),IsNotNull(deaths),IsNotNull(recovered),GreaterThanOrEqual(cases,0),GreaterThanOrEqual(deaths,0),GreaterThanOrEqual(recovered,0)
+[2025-05-07T19:43:01.631+0000] {subprocess.py:93} INFO - 25/05/07 19:43:01 INFO FileSourceStrategy: Post-Scan Filters: isnotnull(cases#2L),isnotnull(deaths#9L),isnotnull(recovered#15L),(cases#2L >= 0),(deaths#9L >= 0),(recovered#15L >= 0),atleastnnonnulls(6, continent#4, country#5, cases#2L, deaths#9L, recovered#15L, cast(from_unixtime(cast((cast(updated#22L as double) / 1000.0) as bigint), yyyy-MM-dd HH:mm:ss, Some(Africa/Cairo)) as timestamp))
+[2025-05-07T19:43:01.661+0000] {subprocess.py:93} INFO - 25/05/07 19:43:01 INFO ParquetUtils: Using default output committer for Parquet: org.apache.parquet.hadoop.ParquetOutputCommitter
+[2025-05-07T19:43:01.671+0000] {subprocess.py:93} INFO - 25/05/07 19:43:01 INFO FileOutputCommitter: File Output Committer Algorithm version is 1
+[2025-05-07T19:43:01.672+0000] {subprocess.py:93} INFO - 25/05/07 19:43:01 INFO FileOutputCommitter: FileOutputCommitter skip cleanup _temporary folders under output directory:false, ignore cleanup failures: false
+[2025-05-07T19:43:01.673+0000] {subprocess.py:93} INFO - 25/05/07 19:43:01 INFO SQLHadoopMapReduceCommitProtocol: Using user defined output committer class org.apache.parquet.hadoop.ParquetOutputCommitter
+[2025-05-07T19:43:01.673+0000] {subprocess.py:93} INFO - 25/05/07 19:43:01 INFO FileOutputCommitter: File Output Committer Algorithm version is 1
+[2025-05-07T19:43:01.674+0000] {subprocess.py:93} INFO - 25/05/07 19:43:01 INFO FileOutputCommitter: FileOutputCommitter skip cleanup _temporary folders under output directory:false, ignore cleanup failures: false
+[2025-05-07T19:43:01.674+0000] {subprocess.py:93} INFO - 25/05/07 19:43:01 INFO SQLHadoopMapReduceCommitProtocol: Using output committer class org.apache.parquet.hadoop.ParquetOutputCommitter
+[2025-05-07T19:43:01.753+0000] {subprocess.py:93} INFO - 25/05/07 19:43:01 INFO CodeGenerator: Code generated in 15.054122 ms
+[2025-05-07T19:43:01.757+0000] {subprocess.py:93} INFO - 25/05/07 19:43:01 INFO MemoryStore: Block broadcast_9 stored as values in memory (estimated size 200.2 KiB, free 433.9 MiB)
+[2025-05-07T19:43:01.764+0000] {subprocess.py:93} INFO - 25/05/07 19:43:01 INFO MemoryStore: Block broadcast_9_piece0 stored as bytes in memory (estimated size 34.6 KiB, free 433.8 MiB)
+[2025-05-07T19:43:01.765+0000] {subprocess.py:93} INFO - 25/05/07 19:43:01 INFO BlockManagerInfo: Added broadcast_9_piece0 in memory on 1a616c0a8036:32993 (size: 34.6 KiB, free: 434.3 MiB)
+[2025-05-07T19:43:01.766+0000] {subprocess.py:93} INFO - 25/05/07 19:43:01 INFO SparkContext: Created broadcast 9 from save at NativeMethodAccessorImpl.java:0
+[2025-05-07T19:43:01.767+0000] {subprocess.py:93} INFO - 25/05/07 19:43:01 INFO FileSourceScanExec: Planning scan with bin packing, max size: 4194304 bytes, open cost is considered as scanning 4194304 bytes.
+[2025-05-07T19:43:01.776+0000] {subprocess.py:93} INFO - 25/05/07 19:43:01 INFO SparkContext: Starting job: save at NativeMethodAccessorImpl.java:0
+[2025-05-07T19:43:01.777+0000] {subprocess.py:93} INFO - 25/05/07 19:43:01 INFO DAGScheduler: Got job 6 (save at NativeMethodAccessorImpl.java:0) with 1 output partitions
+[2025-05-07T19:43:01.778+0000] {subprocess.py:93} INFO - 25/05/07 19:43:01 INFO DAGScheduler: Final stage: ResultStage 10 (save at NativeMethodAccessorImpl.java:0)
+[2025-05-07T19:43:01.778+0000] {subprocess.py:93} INFO - 25/05/07 19:43:01 INFO DAGScheduler: Parents of final stage: List()
+[2025-05-07T19:43:01.778+0000] {subprocess.py:93} INFO - 25/05/07 19:43:01 INFO DAGScheduler: Missing parents: List()
+[2025-05-07T19:43:01.779+0000] {subprocess.py:93} INFO - 25/05/07 19:43:01 INFO DAGScheduler: Submitting ResultStage 10 (MapPartitionsRDD[23] at save at NativeMethodAccessorImpl.java:0), which has no missing parents
+[2025-05-07T19:43:01.797+0000] {subprocess.py:93} INFO - 25/05/07 19:43:01 INFO MemoryStore: Block broadcast_10 stored as values in memory (estimated size 223.6 KiB, free 433.6 MiB)
+[2025-05-07T19:43:01.799+0000] {subprocess.py:93} INFO - 25/05/07 19:43:01 INFO MemoryStore: Block broadcast_10_piece0 stored as bytes in memory (estimated size 80.4 KiB, free 433.5 MiB)
+[2025-05-07T19:43:01.799+0000] {subprocess.py:93} INFO - 25/05/07 19:43:01 INFO BlockManagerInfo: Added broadcast_10_piece0 in memory on 1a616c0a8036:32993 (size: 80.4 KiB, free: 434.2 MiB)
+[2025-05-07T19:43:01.800+0000] {subprocess.py:93} INFO - 25/05/07 19:43:01 INFO SparkContext: Created broadcast 10 from broadcast at DAGScheduler.scala:1585
+[2025-05-07T19:43:01.800+0000] {subprocess.py:93} INFO - 25/05/07 19:43:01 INFO DAGScheduler: Submitting 1 missing tasks from ResultStage 10 (MapPartitionsRDD[23] at save at NativeMethodAccessorImpl.java:0) (first 15 tasks are for partitions Vector(0))
+[2025-05-07T19:43:01.801+0000] {subprocess.py:93} INFO - 25/05/07 19:43:01 INFO TaskSchedulerImpl: Adding task set 10.0 with 1 tasks resource profile 0
+[2025-05-07T19:43:01.802+0000] {subprocess.py:93} INFO - 25/05/07 19:43:01 INFO TaskSetManager: Starting task 0.0 in stage 10.0 (TID 6) (1a616c0a8036, executor driver, partition 0, PROCESS_LOCAL, 9787 bytes)
+[2025-05-07T19:43:01.802+0000] {subprocess.py:93} INFO - 25/05/07 19:43:01 INFO Executor: Running task 0.0 in stage 10.0 (TID 6)
+[2025-05-07T19:43:01.842+0000] {subprocess.py:93} INFO - 25/05/07 19:43:01 INFO CodeGenerator: Code generated in 17.701371 ms
+[2025-05-07T19:43:01.844+0000] {subprocess.py:93} INFO - 25/05/07 19:43:01 INFO FileOutputCommitter: File Output Committer Algorithm version is 1
+[2025-05-07T19:43:01.844+0000] {subprocess.py:93} INFO - 25/05/07 19:43:01 INFO FileOutputCommitter: FileOutputCommitter skip cleanup _temporary folders under output directory:false, ignore cleanup failures: false
+[2025-05-07T19:43:01.845+0000] {subprocess.py:93} INFO - 25/05/07 19:43:01 INFO SQLHadoopMapReduceCommitProtocol: Using user defined output committer class org.apache.parquet.hadoop.ParquetOutputCommitter
+[2025-05-07T19:43:01.845+0000] {subprocess.py:93} INFO - 25/05/07 19:43:01 INFO FileOutputCommitter: File Output Committer Algorithm version is 1
+[2025-05-07T19:43:01.845+0000] {subprocess.py:93} INFO - 25/05/07 19:43:01 INFO FileOutputCommitter: FileOutputCommitter skip cleanup _temporary folders under output directory:false, ignore cleanup failures: false
+[2025-05-07T19:43:01.846+0000] {subprocess.py:93} INFO - 25/05/07 19:43:01 INFO SQLHadoopMapReduceCommitProtocol: Using output committer class org.apache.parquet.hadoop.ParquetOutputCommitter
+[2025-05-07T19:43:01.849+0000] {subprocess.py:93} INFO - 25/05/07 19:43:01 INFO CodecConfig: Compression: SNAPPY
+[2025-05-07T19:43:01.851+0000] {subprocess.py:93} INFO - 25/05/07 19:43:01 INFO CodecConfig: Compression: SNAPPY
+[2025-05-07T19:43:01.866+0000] {subprocess.py:93} INFO - 25/05/07 19:43:01 INFO ParquetOutputFormat: ParquetRecordWriter [block size: 134217728b, row group padding size: 8388608b, validating: false]
+[2025-05-07T19:43:01.895+0000] {subprocess.py:93} INFO - 25/05/07 19:43:01 INFO ParquetWriteSupport: Initialized Parquet WriteSupport with Catalyst schema:
+[2025-05-07T19:43:01.895+0000] {subprocess.py:93} INFO - {
+[2025-05-07T19:43:01.896+0000] {subprocess.py:93} INFO -   "type" : "struct",
+[2025-05-07T19:43:01.896+0000] {subprocess.py:93} INFO -   "fields" : [ {
+[2025-05-07T19:43:01.897+0000] {subprocess.py:93} INFO -     "name" : "continent",
+[2025-05-07T19:43:01.897+0000] {subprocess.py:93} INFO -     "type" : "string",
+[2025-05-07T19:43:01.898+0000] {subprocess.py:93} INFO -     "nullable" : true,
+[2025-05-07T19:43:01.898+0000] {subprocess.py:93} INFO -     "metadata" : { }
+[2025-05-07T19:43:01.898+0000] {subprocess.py:93} INFO -   }, {
+[2025-05-07T19:43:01.899+0000] {subprocess.py:93} INFO -     "name" : "country",
+[2025-05-07T19:43:01.899+0000] {subprocess.py:93} INFO -     "type" : "string",
+[2025-05-07T19:43:01.899+0000] {subprocess.py:93} INFO -     "nullable" : true,
+[2025-05-07T19:43:01.900+0000] {subprocess.py:93} INFO -     "metadata" : { }
+[2025-05-07T19:43:01.900+0000] {subprocess.py:93} INFO -   }, {
+[2025-05-07T19:43:01.900+0000] {subprocess.py:93} INFO -     "name" : "cases",
+[2025-05-07T19:43:01.901+0000] {subprocess.py:93} INFO -     "type" : "long",
+[2025-05-07T19:43:01.901+0000] {subprocess.py:93} INFO -     "nullable" : true,
+[2025-05-07T19:43:01.901+0000] {subprocess.py:93} INFO -     "metadata" : { }
+[2025-05-07T19:43:01.902+0000] {subprocess.py:93} INFO -   }, {
+[2025-05-07T19:43:01.902+0000] {subprocess.py:93} INFO -     "name" : "deaths",
+[2025-05-07T19:43:01.902+0000] {subprocess.py:93} INFO -     "type" : "long",
+[2025-05-07T19:43:01.902+0000] {subprocess.py:93} INFO -     "nullable" : true,
+[2025-05-07T19:43:01.903+0000] {subprocess.py:93} INFO -     "metadata" : { }
+[2025-05-07T19:43:01.903+0000] {subprocess.py:93} INFO -   }, {
+[2025-05-07T19:43:01.903+0000] {subprocess.py:93} INFO -     "name" : "recovered",
+[2025-05-07T19:43:01.904+0000] {subprocess.py:93} INFO -     "type" : "long",
+[2025-05-07T19:43:01.904+0000] {subprocess.py:93} INFO -     "nullable" : true,
+[2025-05-07T19:43:01.904+0000] {subprocess.py:93} INFO -     "metadata" : { }
+[2025-05-07T19:43:01.905+0000] {subprocess.py:93} INFO -   }, {
+[2025-05-07T19:43:01.905+0000] {subprocess.py:93} INFO -     "name" : "egypt_time",
+[2025-05-07T19:43:01.905+0000] {subprocess.py:93} INFO -     "type" : "timestamp",
+[2025-05-07T19:43:01.905+0000] {subprocess.py:93} INFO -     "nullable" : true,
+[2025-05-07T19:43:01.906+0000] {subprocess.py:93} INFO -     "metadata" : { }
+[2025-05-07T19:43:01.906+0000] {subprocess.py:93} INFO -   } ]
+[2025-05-07T19:43:01.906+0000] {subprocess.py:93} INFO - }
+[2025-05-07T19:43:01.907+0000] {subprocess.py:93} INFO - and corresponding Parquet message type:
+[2025-05-07T19:43:01.907+0000] {subprocess.py:93} INFO - message spark_schema {
+[2025-05-07T19:43:01.907+0000] {subprocess.py:93} INFO -   optional binary continent (STRING);
+[2025-05-07T19:43:01.907+0000] {subprocess.py:93} INFO -   optional binary country (STRING);
+[2025-05-07T19:43:01.908+0000] {subprocess.py:93} INFO -   optional int64 cases;
+[2025-05-07T19:43:01.908+0000] {subprocess.py:93} INFO -   optional int64 deaths;
+[2025-05-07T19:43:01.908+0000] {subprocess.py:93} INFO -   optional int64 recovered;
+[2025-05-07T19:43:01.909+0000] {subprocess.py:93} INFO -   optional int96 egypt_time;
+[2025-05-07T19:43:01.909+0000] {subprocess.py:93} INFO - }
+[2025-05-07T19:43:01.909+0000] {subprocess.py:93} INFO - 
+[2025-05-07T19:43:01.910+0000] {subprocess.py:93} INFO - 
+[2025-05-07T19:43:02.007+0000] {subprocess.py:93} INFO - 25/05/07 19:43:02 INFO CodecPool: Got brand-new compressor [.snappy]
+[2025-05-07T19:43:02.018+0000] {subprocess.py:93} INFO - 25/05/07 19:43:02 INFO BlockManagerInfo: Removed broadcast_8_piece0 on 1a616c0a8036:32993 in memory (size: 5.9 KiB, free: 434.2 MiB)
+[2025-05-07T19:43:02.146+0000] {subprocess.py:93} INFO - 25/05/07 19:43:02 INFO FileScanRDD: Reading File path: file:///opt/***/dags/CoronaProj/data.json, range: 0-213782, partition values: [empty row]
+[2025-05-07T19:43:02.509+0000] {subprocess.py:93} INFO - 25/05/07 19:43:02 INFO FileOutputCommitter: Saved output of task 'attempt_202505071943012701557339336881384_0010_m_000000_6' to file:/opt/***/dags/CoronaProj/GeneratedData/2025-05-07 19:43:01.567507/data.csv/_temporary/0/task_202505071943012701557339336881384_0010_m_000000
+[2025-05-07T19:43:02.510+0000] {subprocess.py:93} INFO - 25/05/07 19:43:02 INFO SparkHadoopMapRedUtil: attempt_202505071943012701557339336881384_0010_m_000000_6: Committed. Elapsed time: 31 ms.
+[2025-05-07T19:43:02.515+0000] {subprocess.py:93} INFO - 25/05/07 19:43:02 INFO Executor: Finished task 0.0 in stage 10.0 (TID 6). 2669 bytes result sent to driver
+[2025-05-07T19:43:02.516+0000] {subprocess.py:93} INFO - 25/05/07 19:43:02 INFO TaskSetManager: Finished task 0.0 in stage 10.0 (TID 6) in 715 ms on 1a616c0a8036 (executor driver) (1/1)
+[2025-05-07T19:43:02.517+0000] {subprocess.py:93} INFO - 25/05/07 19:43:02 INFO TaskSchedulerImpl: Removed TaskSet 10.0, whose tasks have all completed, from pool
+[2025-05-07T19:43:02.517+0000] {subprocess.py:93} INFO - 25/05/07 19:43:02 INFO DAGScheduler: ResultStage 10 (save at NativeMethodAccessorImpl.java:0) finished in 0.738 s
+[2025-05-07T19:43:02.518+0000] {subprocess.py:93} INFO - 25/05/07 19:43:02 INFO DAGScheduler: Job 6 is finished. Cancelling potential speculative or zombie tasks for this job
+[2025-05-07T19:43:02.518+0000] {subprocess.py:93} INFO - 25/05/07 19:43:02 INFO TaskSchedulerImpl: Killing all running tasks in stage 10: Stage finished
+[2025-05-07T19:43:02.519+0000] {subprocess.py:93} INFO - 25/05/07 19:43:02 INFO DAGScheduler: Job 6 finished: save at NativeMethodAccessorImpl.java:0, took 0.742352 s
+[2025-05-07T19:43:02.520+0000] {subprocess.py:93} INFO - 25/05/07 19:43:02 INFO FileFormatWriter: Start to commit write Job 50141fb2-8d15-4ff9-8617-52e9c328a11c.
+[2025-05-07T19:43:02.692+0000] {subprocess.py:93} INFO - 25/05/07 19:43:02 INFO FileFormatWriter: Write Job 50141fb2-8d15-4ff9-8617-52e9c328a11c committed. Elapsed time: 171 ms.
+[2025-05-07T19:43:02.694+0000] {subprocess.py:93} INFO - 25/05/07 19:43:02 INFO FileFormatWriter: Finished processing stats for write job 50141fb2-8d15-4ff9-8617-52e9c328a11c.
+[2025-05-07T19:43:03.090+0000] {subprocess.py:93} INFO - 25/05/07 19:43:03 INFO FileSourceStrategy: Pushed Filters: IsNotNull(cases),IsNotNull(deaths),IsNotNull(recovered),GreaterThanOrEqual(cases,0),GreaterThanOrEqual(deaths,0),GreaterThanOrEqual(recovered,0)
+[2025-05-07T19:43:03.090+0000] {subprocess.py:93} INFO - 25/05/07 19:43:03 INFO FileSourceStrategy: Post-Scan Filters: isnotnull(cases#2L),isnotnull(deaths#9L),isnotnull(recovered#15L),(cases#2L >= 0),(deaths#9L >= 0),(recovered#15L >= 0),atleastnnonnulls(6, continent#4, country#5, cases#2L, deaths#9L, recovered#15L, cast(from_unixtime(cast((cast(updated#22L as double) / 1000.0) as bigint), yyyy-MM-dd HH:mm:ss, Some(Africa/Cairo)) as timestamp))
+[2025-05-07T19:43:03.111+0000] {subprocess.py:93} INFO - 25/05/07 19:43:03 INFO MemoryStore: Block broadcast_11 stored as values in memory (estimated size 200.2 KiB, free 433.4 MiB)
+[2025-05-07T19:43:03.118+0000] {subprocess.py:93} INFO - 25/05/07 19:43:03 INFO MemoryStore: Block broadcast_11_piece0 stored as bytes in memory (estimated size 34.6 KiB, free 433.3 MiB)
+[2025-05-07T19:43:03.119+0000] {subprocess.py:93} INFO - 25/05/07 19:43:03 INFO BlockManagerInfo: Added broadcast_11_piece0 in memory on 1a616c0a8036:32993 (size: 34.6 KiB, free: 434.2 MiB)
+[2025-05-07T19:43:03.119+0000] {subprocess.py:93} INFO - 25/05/07 19:43:03 INFO SparkContext: Created broadcast 11 from save at NativeMethodAccessorImpl.java:0
+[2025-05-07T19:43:03.120+0000] {subprocess.py:93} INFO - 25/05/07 19:43:03 INFO FileSourceScanExec: Planning scan with bin packing, max size: 4194304 bytes, open cost is considered as scanning 4194304 bytes.
+[2025-05-07T19:43:03.177+0000] {subprocess.py:93} INFO - 25/05/07 19:43:03 INFO SparkContext: Starting job: save at NativeMethodAccessorImpl.java:0
+[2025-05-07T19:43:03.178+0000] {subprocess.py:93} INFO - 25/05/07 19:43:03 INFO DAGScheduler: Got job 7 (save at NativeMethodAccessorImpl.java:0) with 1 output partitions
+[2025-05-07T19:43:03.178+0000] {subprocess.py:93} INFO - 25/05/07 19:43:03 INFO DAGScheduler: Final stage: ResultStage 11 (save at NativeMethodAccessorImpl.java:0)
+[2025-05-07T19:43:03.179+0000] {subprocess.py:93} INFO - 25/05/07 19:43:03 INFO DAGScheduler: Parents of final stage: List()
+[2025-05-07T19:43:03.179+0000] {subprocess.py:93} INFO - 25/05/07 19:43:03 INFO DAGScheduler: Missing parents: List()
+[2025-05-07T19:43:03.180+0000] {subprocess.py:93} INFO - 25/05/07 19:43:03 INFO DAGScheduler: Submitting ResultStage 11 (MapPartitionsRDD[29] at save at NativeMethodAccessorImpl.java:0), which has no missing parents
+[2025-05-07T19:43:03.187+0000] {subprocess.py:93} INFO - 25/05/07 19:43:03 INFO MemoryStore: Block broadcast_12 stored as values in memory (estimated size 44.6 KiB, free 433.3 MiB)
+[2025-05-07T19:43:03.188+0000] {subprocess.py:93} INFO - 25/05/07 19:43:03 INFO MemoryStore: Block broadcast_12_piece0 stored as bytes in memory (estimated size 20.2 KiB, free 433.3 MiB)
+[2025-05-07T19:43:03.189+0000] {subprocess.py:93} INFO - 25/05/07 19:43:03 INFO BlockManagerInfo: Added broadcast_12_piece0 in memory on 1a616c0a8036:32993 (size: 20.2 KiB, free: 434.2 MiB)
+[2025-05-07T19:43:03.190+0000] {subprocess.py:93} INFO - 25/05/07 19:43:03 INFO SparkContext: Created broadcast 12 from broadcast at DAGScheduler.scala:1585
+[2025-05-07T19:43:03.190+0000] {subprocess.py:93} INFO - 25/05/07 19:43:03 INFO DAGScheduler: Submitting 1 missing tasks from ResultStage 11 (MapPartitionsRDD[29] at save at NativeMethodAccessorImpl.java:0) (first 15 tasks are for partitions Vector(0))
+[2025-05-07T19:43:03.190+0000] {subprocess.py:93} INFO - 25/05/07 19:43:03 INFO TaskSchedulerImpl: Adding task set 11.0 with 1 tasks resource profile 0
+[2025-05-07T19:43:03.192+0000] {subprocess.py:93} INFO - 25/05/07 19:43:03 INFO TaskSetManager: Starting task 0.0 in stage 11.0 (TID 7) (1a616c0a8036, executor driver, partition 0, PROCESS_LOCAL, 9787 bytes)
+[2025-05-07T19:43:03.193+0000] {subprocess.py:93} INFO - 25/05/07 19:43:03 INFO Executor: Running task 0.0 in stage 11.0 (TID 7)
+[2025-05-07T19:43:03.375+0000] {subprocess.py:93} INFO - 25/05/07 19:43:03 INFO BlockManagerInfo: Removed broadcast_10_piece0 on 1a616c0a8036:32993 in memory (size: 80.4 KiB, free: 434.3 MiB)
+[2025-05-07T19:43:03.379+0000] {subprocess.py:93} INFO - 25/05/07 19:43:03 INFO BlockManagerInfo: Removed broadcast_9_piece0 on 1a616c0a8036:32993 in memory (size: 34.6 KiB, free: 434.3 MiB)
+[2025-05-07T19:43:04.085+0000] {subprocess.py:93} INFO - 25/05/07 19:43:04 INFO CodeGenerator: Code generated in 11.427233 ms
+[2025-05-07T19:43:04.088+0000] {subprocess.py:93} INFO - 25/05/07 19:43:04 INFO FileScanRDD: Reading File path: file:///opt/***/dags/CoronaProj/data.json, range: 0-213782, partition values: [empty row]
+[2025-05-07T19:43:04.206+0000] {subprocess.py:93} INFO - 25/05/07 19:43:04 INFO Executor: Finished task 0.0 in stage 11.0 (TID 7). 1648 bytes result sent to driver
+[2025-05-07T19:43:04.208+0000] {subprocess.py:93} INFO - 25/05/07 19:43:04 INFO TaskSetManager: Finished task 0.0 in stage 11.0 (TID 7) in 1016 ms on 1a616c0a8036 (executor driver) (1/1)
+[2025-05-07T19:43:04.208+0000] {subprocess.py:93} INFO - 25/05/07 19:43:04 INFO TaskSchedulerImpl: Removed TaskSet 11.0, whose tasks have all completed, from pool
+[2025-05-07T19:43:04.209+0000] {subprocess.py:93} INFO - 25/05/07 19:43:04 INFO DAGScheduler: ResultStage 11 (save at NativeMethodAccessorImpl.java:0) finished in 1.030 s
+[2025-05-07T19:43:04.209+0000] {subprocess.py:93} INFO - 25/05/07 19:43:04 INFO DAGScheduler: Job 7 is finished. Cancelling potential speculative or zombie tasks for this job
+[2025-05-07T19:43:04.210+0000] {subprocess.py:93} INFO - 25/05/07 19:43:04 INFO TaskSchedulerImpl: Killing all running tasks in stage 11: Stage finished
+[2025-05-07T19:43:04.210+0000] {subprocess.py:93} INFO - 25/05/07 19:43:04 INFO DAGScheduler: Job 7 finished: save at NativeMethodAccessorImpl.java:0, took 1.032545 s
+[2025-05-07T19:43:04.315+0000] {subprocess.py:93} INFO - 25/05/07 19:43:04 INFO SparkContext: Invoking stop() from shutdown hook
+[2025-05-07T19:43:04.315+0000] {subprocess.py:93} INFO - 25/05/07 19:43:04 INFO SparkContext: SparkContext is stopping with exitCode 0.
+[2025-05-07T19:43:04.324+0000] {subprocess.py:93} INFO - 25/05/07 19:43:04 INFO SparkUI: Stopped Spark web UI at http://1a616c0a8036:4040
+[2025-05-07T19:43:04.333+0000] {subprocess.py:93} INFO - 25/05/07 19:43:04 INFO MapOutputTrackerMasterEndpoint: MapOutputTrackerMasterEndpoint stopped!
+[2025-05-07T19:43:04.346+0000] {subprocess.py:93} INFO - 25/05/07 19:43:04 INFO MemoryStore: MemoryStore cleared
+[2025-05-07T19:43:04.346+0000] {subprocess.py:93} INFO - 25/05/07 19:43:04 INFO BlockManager: BlockManager stopped
+[2025-05-07T19:43:04.349+0000] {subprocess.py:93} INFO - 25/05/07 19:43:04 INFO BlockManagerMaster: BlockManagerMaster stopped
+[2025-05-07T19:43:04.351+0000] {subprocess.py:93} INFO - 25/05/07 19:43:04 INFO OutputCommitCoordinator$OutputCommitCoordinatorEndpoint: OutputCommitCoordinator stopped!
+[2025-05-07T19:43:04.359+0000] {subprocess.py:93} INFO - 25/05/07 19:43:04 INFO SparkContext: Successfully stopped SparkContext
+[2025-05-07T19:43:04.360+0000] {subprocess.py:93} INFO - 25/05/07 19:43:04 INFO ShutdownHookManager: Shutdown hook called
+[2025-05-07T19:43:04.360+0000] {subprocess.py:93} INFO - 25/05/07 19:43:04 INFO ShutdownHookManager: Deleting directory /tmp/spark-661e57d5-587e-40db-b0e2-80d9de0632f0/pyspark-fc73f752-dbc2-4dcf-830f-990edefa3bae
+[2025-05-07T19:43:04.364+0000] {subprocess.py:93} INFO - 25/05/07 19:43:04 INFO ShutdownHookManager: Deleting directory /tmp/spark-5930e4d5-e014-4ed9-bf09-35f2310a0d6d
+[2025-05-07T19:43:04.367+0000] {subprocess.py:93} INFO - 25/05/07 19:43:04 INFO ShutdownHookManager: Deleting directory /tmp/spark-661e57d5-587e-40db-b0e2-80d9de0632f0
+[2025-05-07T19:43:04.431+0000] {subprocess.py:97} INFO - Command exited with return code 0
+[2025-05-07T19:43:04.451+0000] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=Simple_Corona_project, task_id=Spark_Processing, execution_date=20250507T194251, start_date=20250507T194253, end_date=20250507T194304
+[2025-05-07T19:43:04.494+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2025-05-07T19:43:04.516+0000] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check

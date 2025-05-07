@@ -1,0 +1,16 @@
+[2025-05-07T19:34:35.159+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: Simple_Corona_project.Produce_data manual__2025-05-07T19:34:33.895572+00:00 [queued]>
+[2025-05-07T19:34:35.169+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: Simple_Corona_project.Produce_data manual__2025-05-07T19:34:33.895572+00:00 [queued]>
+[2025-05-07T19:34:35.170+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 1
+[2025-05-07T19:34:35.189+0000] {taskinstance.py:2191} INFO - Executing <Task(BashOperator): Produce_data> on 2025-05-07 19:34:33.895572+00:00
+[2025-05-07T19:34:35.195+0000] {standard_task_runner.py:60} INFO - Started process 547 to run task
+[2025-05-07T19:34:35.199+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'Simple_Corona_project', 'Produce_data', 'manual__2025-05-07T19:34:33.895572+00:00', '--job-id', '36', '--raw', '--subdir', 'DAGS_FOLDER/Project_tasks2.py', '--cfg-path', '/tmp/tmpmvv48ele']
+[2025-05-07T19:34:35.201+0000] {standard_task_runner.py:88} INFO - Job 36: Subtask Produce_data
+[2025-05-07T19:34:35.253+0000] {task_command.py:423} INFO - Running <TaskInstance: Simple_Corona_project.Produce_data manual__2025-05-07T19:34:33.895572+00:00 [running]> on host 1a616c0a8036
+[2025-05-07T19:34:35.320+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='Simple_Corona_project' AIRFLOW_CTX_TASK_ID='Produce_data' AIRFLOW_CTX_EXECUTION_DATE='2025-05-07T19:34:33.895572+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-05-07T19:34:33.895572+00:00'
+[2025-05-07T19:34:35.321+0000] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2025-05-07T19:34:35.322+0000] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', '\n        cd /opt/***/dags/CoronaProj/\n        python3 API_CALL.py\n        ']
+[2025-05-07T19:34:35.332+0000] {subprocess.py:86} INFO - Output:
+[2025-05-07T19:34:35.956+0000] {subprocess.py:97} INFO - Command exited with return code 0
+[2025-05-07T19:34:35.984+0000] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=Simple_Corona_project, task_id=Produce_data, execution_date=20250507T193433, start_date=20250507T193435, end_date=20250507T193435
+[2025-05-07T19:34:36.013+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2025-05-07T19:34:36.042+0000] {taskinstance.py:3280} INFO - 1 downstream tasks scheduled from follow-on schedule check
